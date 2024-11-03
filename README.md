@@ -1,3 +1,18 @@
+<!-- Visitor Badge -->
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=jmlombardi.jmlombardi"/>
+
+<!-- Animated Header -->
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=2000&lines=Hello+World!+👋;+I'm+Sibtain+Malik!;" />
+</h1>
+
+------------------------------------
+
+<!-- Introduction -->
+<h3 align="center">🔬 A skilled Software Engineer specializing in TypeScript, Python, and AI 🧠</h3>
+<h3 align="center">☁️ AWS, Azure, Google Cloud Architect 🌐</h3>
+
+-------------
 # 💫 About Me:
 I'm a skilled software developer with experience in TypeScript and JavaScript, specializing in React, Django, and REST. I excel in coding, problem-solving, and software design. Additionally, I have proficiency in AI, particularly reinforcement learning using TensorFlow and PyTorch, and experience with OpenAI Gym environments for experimentation. With a background in AWS, Azure, and Google Cloud Platform, I can architect scalable AI solutions in the cloud.
 
@@ -24,4 +39,8 @@ I'm a skilled software developer with experience in TypeScript and JavaScript, s
 ---
 [![](https://visitcount.itsvg.in/api?id=SIBTAIN-ASAD&icon=0&color=0)](https://visitcount.itsvg.in)
 
+
+<h3 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Thank+you+for+stopping+by!+👋;Feel+free+to+reach+out+on+LinkedIn!;Open+for+collaborations+and+discussions.">
+</h3>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

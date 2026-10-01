@@ -68,6 +68,7 @@ Selected merged pull requests.
 
 **Other public repositories**
 
+- [Flight booking management system](https://github.com/SIBTAIN-ASAD/Flight-MS-Python) — a terminal-based Python application with customer memberships, services, bookings, and text-file persistence.
 - [C data structures and algorithms](https://github.com/SIBTAIN-ASAD/C-ADTs-DSA) — heap and binary search tree implementations.
 - [Quora-style web application](https://github.com/SIBTAIN-ASAD/quora) — questions, answers, and comments.
 - [C++ Checkers](https://github.com/SIBTAIN-ASAD/Checkers-C-) — move suggestions and file-based game data.

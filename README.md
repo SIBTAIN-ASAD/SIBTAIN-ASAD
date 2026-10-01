@@ -6,10 +6,10 @@ Building web applications and APIs. Exploring AI. Contributing to open source.
 [**Portfolio ↗**](https://www.sibtainasad.com/) &nbsp; · &nbsp; [**LinkedIn ↗**](https://www.linkedin.com/in/sibtain-asad/) &nbsp; · &nbsp; [**Explore my code ↗**](https://github.com/SIBTAIN-ASAD?tab=repositories)
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/activity-dark.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/activity-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.gif" />
-  <img src="./assets/activity-light.gif" width="100%" alt="Animated engineer.ts profile: Sibtain Asad, TypeScript and Python, Web, APIs, and AI. A branching graph connects build, explore, and contribute." />
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/engineering-dark.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/engineering-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/engineering-dark.gif" />
+  <img src="./assets/engineering-light.gif" width="100%" alt="Animated engineer.ts profile: Sibtain Asad, TypeScript and Python, Web, APIs, and AI. A branching graph connects build, explore, and contribute." />
 </picture>
 
 <p>

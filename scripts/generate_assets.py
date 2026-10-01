@@ -56,9 +56,9 @@ for theme in ['dark','light']:
   frames.append(im)
  palette=frames[80].quantize(colors=128)
  quant=[im.quantize(palette=palette,dither=Image.Dither.NONE) for im in frames]
- quant[0].save(OUT/f'activity-{theme}.gif',save_all=True,append_images=quant[1:],duration=80,loop=0,optimize=True,disposal=1)
- frames[80].save(OUT/f'activity-{theme}.png')
- print(theme,(OUT/f'activity-{theme}.gif').stat().st_size//1024,'KB')
+ quant[0].save(OUT/f'engineering-{theme}.gif',save_all=True,append_images=quant[1:],duration=80,loop=0,optimize=True,disposal=1)
+ frames[80].save(OUT/f'engineering-{theme}.png')
+ print(theme,(OUT/f'engineering-{theme}.gif').stat().st_size//1024,'KB')
 # Familiar flat badges. Fixed colors are deliberate for legibility in either theme.
 badges=[('typescript','TS','TypeScript','#3178c6'),('python','Py','Python','#3572a5'),('react','⚛','React','#087ea4'),('django','Dj','Django','#237249'),('postgresql','Pg','PostgreSQL','#4169a1'),('docker','D','Docker','#0969da'),('pytorch','AI','PyTorch','#b83c20'),('merged','↳','Merged','#8250df')]
 for slug,icon,label,color in badges:

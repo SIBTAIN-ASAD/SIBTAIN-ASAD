@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammad Sibtain Asad — Software Engineer</title>
+  <desc id="desc">Thoughtful interfaces. Reliable systems. A midnight blue banner with a layered geometric illustration in blue and mint.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101B30"/><stop offset="1" stop-color="#080F1D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="770" y1="75" x2="1090" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#74A9FF"/><stop offset="1" stop-color="#6CE5C1"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#94B9EC" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="380" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="20" fill="url(#grid)"/>
+  <path d="M56 53H100" stroke="#6CE5C1" stroke-width="3"/>
+  <text x="115" y="59" fill="#ABC2DF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="3">SOFTWARE ENGINEER</text>
+  <text x="54" y="143" fill="#F2F6FF" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="700" letter-spacing="-1.5">Muhammad</text>
+  <text x="54" y="199" fill="#F2F6FF" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="700" letter-spacing="-1.5">Sibtain Asad<tspan fill="#6CE5C1">.</tspan></text>
+  <text x="57" y="252" fill="#B2C1D7" font-family="Arial, Helvetica, sans-serif" font-size="23">Thoughtful interfaces. Reliable systems.</text>
+  <text x="57" y="328" fill="#7E95B6" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="1.5">WEB / APIs / AI / OPEN SOURCE</text>
+  <g stroke="url(#accent)" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M800 247L940 175L1080 247L940 319Z" fill="#142D39"/>
+    <path d="M800 210L940 138L1080 210L940 282Z" fill="#13243B"/>
+    <path d="M800 173L940 101L1080 173L940 245Z" fill="#192E49"/>
+    <path d="M800 173V247M940 245V319M1080 173V247" stroke-dasharray="4 6" opacity=".55"/>
+    <path d="M891 151L865 165L891 179M989 151L1015 165L989 179M953 139L927 191" stroke-width="3" stroke-linecap="round"/>
+    <path d="M940 101V69H1100M1080 247H1126V292M800 210H757V282" stroke-opacity=".45"/>
+  </g>
+  <circle cx="1100" cy="69" r="4" fill="#6CE5C1"/>
+  <circle cx="1126" cy="292" r="4" fill="#74A9FF"/>
+  <circle cx="757" cy="282" r="4" fill="#6CE5C1"/>
+  <rect x=".5" y=".5" width="1199" height="379" rx="19.5" stroke="#26374E"/>
+</svg>

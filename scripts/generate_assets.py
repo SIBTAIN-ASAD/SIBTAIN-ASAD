@@ -1,51 +1,67 @@
-"""Generate a compact, transparent GitHub profile animation.
-Requires Pillow. Uses Arial on macOS or DejaVu Sans on Linux.
-PROFILE_FONT_DIR can override the macOS font directory.
+"""Generate GitHub-themed profile artwork; requires Pillow.
+Arial/SF Mono on macOS; DejaVu Sans/Mono on Linux.
 """
 from pathlib import Path
-import os
-from PIL import Image, ImageDraw, ImageFont, ImageChops
-
-OUT = Path(__file__).resolve().parents[1] / 'assets'
+from PIL import Image, ImageDraw, ImageFont
+import math
+from html import escape
+OUT=Path(__file__).resolve().parents[1]/'assets'
 OUT.mkdir(exist_ok=True)
-root = Path(os.environ.get('PROFILE_FONT_DIR', '/System/Library/Fonts/Supplemental'))
-path = root / 'Arial.ttf'
-font = ImageFont.truetype(str(path) if path.exists() else 'DejaVuSans.ttf', 32)
-W, H = 1000, 86
-phrases = ['Building thoughtful interfaces.', 'Designing dependable APIs.', 'Exploring AI and open source.']
-for theme, fg in [('dark', '#9198a1'), ('light', '#59636e')]:
-    frames = []
-    for frame in range(144):
-        # Reserve a unique flat color for transparent pixels in the GIF palette.
-        im = Image.new('RGB', (W, H), '#ff00ff')
-        d = ImageDraw.Draw(im)
-        phase = frame % 48
-        phrase = phrases[frame // 48]
-        count = min(len(phrase), int(phase * 1.2))
-        d.text((0, 23), '> ', font=font, fill='#3fb950')
-        d.text((36, 23), phrase[:count], font=font, fill=fg)
-        if phase % 12 < 7:
-            x = 40 + d.textlength(phrase[:count], font=font)
-            d.rectangle((x, 27, x+3, 56), fill='#3fb950')
-        # A small branch graph carries a moving signal; no enclosing card.
-        color = '#30363d' if theme == 'dark' else '#d1d9e0'
-        d.line([(720,43),(775,43),(815,20),(880,20),(930,43),(985,43)],fill=color,width=3)
-        d.line([(775,43),(815,67),(880,67),(930,43)],fill=color,width=3)
-        for x,y in [(720,43),(815,20),(880,67),(985,43)]:
-            d.ellipse((x-6,y-6,x+6,y+6),fill='#3fb950')
-        f=(frame%48)/48
-        x=720+265*f
-        y=43 if x<775 or x>930 else (43-(x-775)*23/40 if x<815 else (20 if x<880 else 20+(x-880)*23/50))
-        d.ellipse((x-4,y-4,x+4,y+4),fill='#58a6ff' if theme=='dark' else '#0969da')
-        pal=im.quantize(colors=254,dither=Image.Dither.NONE)
-        index=pal.getpixel((W-1,0))
-        pal.info['transparency']=index
-        frames.append(pal)
-    frames[0].save(OUT/f'activity-{theme}.gif',save_all=True,append_images=frames[1:],duration=80,loop=0,disposal=2,optimize=False)
-    static=frames[30].convert('RGBA')
-    static.save(OUT/f'activity-{theme}.png')
-    check=Image.open(OUT/f'activity-{theme}.gif')
-    assert check.n_frames == 144 and check.info['loop'] == 0
-    check.seek(30)
-    assert check.convert('RGBA').getpixel((999,0))[3] == 0
-    print(theme, round((OUT/f'activity-{theme}.gif').stat().st_size/1024), 'KB; 144 frames; transparent background')
+def font(size,mono=False,bold=False):
+ p=Path('/System/Library/Fonts/SFNSMono.ttf') if mono else Path('/System/Library/Fonts/Supplemental')/('Arial Bold.ttf' if bold else 'Arial.ttf')
+ fallback='DejaVuSansMono.ttf' if mono else ('DejaVuSans-Bold.ttf' if bold else 'DejaVuSans.ttf')
+ return ImageFont.truetype(str(p) if p.exists() else fallback,size)
+W,H=1000,302
+for theme in ['dark','light']:
+ dark=theme=='dark'
+ bg='#0d1117' if dark else '#ffffff'; panel='#151b23' if dark else '#f6f8fa'
+ border='#3d444d' if dark else '#d1d9e0'; fg='#f0f6fc' if dark else '#1f2328'
+ muted='#9198a1' if dark else '#59636e'; blue='#79c0ff' if dark else '#0550ae'
+ green='#3fb950' if dark else '#1a7f37'; purple='#d2a8ff' if dark else '#8250df'
+ frames=[]
+ for f in range(120):
+  im=Image.new('RGB',(W,H),bg); d=ImageDraw.Draw(im)
+  d.rounded_rectangle((1,1,998,300),radius=12,fill=bg,outline=border,width=2)
+  d.rounded_rectangle((2,2,997,51),radius=11,fill=panel)
+  d.rectangle((2,28,997,51),fill=panel)
+  d.line((1,51,998,51),fill=border,width=1)
+  d.line((624,51,624,301),fill=border,width=1)
+  d.text((23,16),'<>  engineer.ts',font=font(19,mono=True),fill=fg)
+  d.line((19,50,214,50),fill='#f78166',width=3)
+  d.text((648,17),'BRANCHING OUT',font=font(17,mono=True),fill=muted)
+  lines=[('const engineer = {',purple),('  name: "Sibtain Asad",',blue),('  stack: ["TypeScript", "Python"],',fg),('  focus: ["Web", "APIs", "AI"],',fg),('  mindset: "Always exploring"',green),('};',purple)]
+  # The first line is always readable; remaining lines are typed, then held.
+  budget=20+int(f*3)
+  for i,(line,col) in enumerate(lines):
+   visible=line[:max(0,budget)];budget-=len(line)
+   d.text((21,78+i*32),str(i+1),font=font(18,mono=True),fill=muted)
+   d.text((54,76+i*32),visible,font=font(21,mono=True),fill=col)
+   if len(visible)<len(line) and budget+len(line)>=0 and f%12<7:
+    x=54+d.textlength(visible,font=font(21,mono=True));d.rectangle((x+2,79+i*32,x+4,98+i*32),fill=fg)
+  # Branch graph, with an animated signal along the path.
+  pts=[(670,211),(729,211),(777,123),(833,123),(885,211),(954,211)]
+  d.line([(670,211),(954,211)],fill=border,width=4)
+  d.line(pts,fill=purple,width=4,joint='curve')
+  for x,y in [(670,211),(729,211),(777,123),(833,123),(885,211),(954,211)]:
+   d.ellipse((x-7,y-7,x+7,y+7),fill=bg,outline=green if y==211 else purple,width=3)
+  d.text((671,251),'BUILD',font=font(15,mono=True),fill=muted)
+  d.text((764,86),'EXPLORE',font=font(15,mono=True),fill=muted)
+  d.text((864,251),'CONTRIBUTE',font=font(15,mono=True),fill=muted)
+  lengths=[math.dist(a,b) for a,b in zip(pts,pts[1:])];dist=(f%60)/60*sum(lengths)
+  for i,length in enumerate(lengths):
+   if dist<=length:
+    a,b=pts[i],pts[i+1];v=dist/length;x=a[0]+v*(b[0]-a[0]);y=a[1]+v*(b[1]-a[1]);break
+   dist-=length
+  d.ellipse((x-5,y-5,x+5,y+5),fill=blue)
+  frames.append(im)
+ palette=frames[80].quantize(colors=128)
+ quant=[im.quantize(palette=palette,dither=Image.Dither.NONE) for im in frames]
+ quant[0].save(OUT/f'activity-{theme}.gif',save_all=True,append_images=quant[1:],duration=80,loop=0,optimize=True,disposal=1)
+ frames[80].save(OUT/f'activity-{theme}.png')
+ print(theme,(OUT/f'activity-{theme}.gif').stat().st_size//1024,'KB')
+# Familiar flat badges. Fixed colors are deliberate for legibility in either theme.
+badges=[('typescript','TS','TypeScript','#3178c6'),('python','Py','Python','#3572a5'),('react','⚛','React','#087ea4'),('django','Dj','Django','#237249'),('postgresql','Pg','PostgreSQL','#4169a1'),('docker','D','Docker','#0969da'),('pytorch','AI','PyTorch','#b83c20'),('merged','↳','Merged','#8250df')]
+for slug,icon,label,color in badges:
+ width=54+len(label)*7
+ svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="28" role="img" aria-label="{escape(label)}"><rect width="{width}" height="28" rx="6" fill="#24292f"/><path d="M6 0H34V28H6Q0 28 0 22V6Q0 0 6 0" fill="{color}"/><text x="17" y="18" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="12" font-weight="700">{escape(icon)}</text><text x="44" y="18" fill="white" font-family="Arial,sans-serif" font-size="12">{escape(label)}</text></svg>'''
+ (OUT/f'{slug}.svg').write_text(svg)

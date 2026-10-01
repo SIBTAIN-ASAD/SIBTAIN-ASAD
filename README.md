@@ -6,23 +6,25 @@ Building web applications and APIs. Exploring AI. Contributing to open source.
 [**Portfolio ↗**](https://www.sibtainasad.com/) &nbsp; · &nbsp; [**LinkedIn ↗**](https://www.linkedin.com/in/sibtain-asad/) &nbsp; · &nbsp; [**Explore my code ↗**](https://github.com/SIBTAIN-ASAD?tab=repositories)
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/engineering-dark.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/engineering-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/engineering-dark.gif" />
-  <img src="./assets/engineering-light.gif" width="100%" alt="Animated engineer.ts profile: Sibtain Asad, TypeScript and Python, Web, APIs, and AI. A branching graph connects build, explore, and contribute." />
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/neon-core-dark.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/neon-core-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/neon-core-dark.gif" />
+  <img src="./assets/neon-core-light.gif" width="100%" alt="From interface to intelligence. Web engineering and AI exploration, illustrated by a rotating fine-line neural wireframe and moving circuit lights." />
 </picture>
 
 <p>
-  <img src="./assets/typescript.svg" alt="TypeScript" />
-  <img src="./assets/python.svg" alt="Python" />
-  <img src="./assets/react.svg" alt="React" />
-  <img src="./assets/django.svg" alt="Django" />
-  <img src="./assets/postgresql.svg" alt="PostgreSQL" />
-  <img src="./assets/docker.svg" alt="Docker" />
-  <img src="./assets/pytorch.svg" alt="PyTorch" />
+  <img src="./assets/neon-typescript.svg" alt="TypeScript" />
+  <img src="./assets/neon-python.svg" alt="Python" />
+  <img src="./assets/neon-react.svg" alt="React" />
+  <img src="./assets/neon-django.svg" alt="Django" />
+  <img src="./assets/neon-postgresql.svg" alt="PostgreSQL" />
+  <img src="./assets/neon-docker.svg" alt="Docker" />
+  <img src="./assets/neon-pytorch.svg" alt="PyTorch" />
 </p>
 
 I work across the stack, from **React interfaces** to **Python services**, with an interest in the details that make software dependable: clear APIs, useful types, automated tests, and well-handled edge cases.
+
+<img src="./assets/neon-work.svg" width="100%" alt="Selected work circuit divider" />
 
 ## Featured repositories
 
@@ -31,6 +33,8 @@ I work across the stack, from **React interfaces** to **Python services**, with 
 <td width="50%" valign="top">
 
 ### [Spotter](https://github.com/SIBTAIN-ASAD/Spotter)
+<img src="./assets/neon-route.svg" width="100%" alt="Fine-line route illustration" />
+
 **Route & fuel planning**
 
 A Django REST API and interactive map for planning US driving routes and recommending fuel stops.
@@ -48,6 +52,8 @@ A Django REST API and interactive map for planning US driving routes and recomme
 <td width="50%" valign="top">
 
 ### [SAM Portfolio](https://github.com/SIBTAIN-ASAD/SAM-portfolio)
+<img src="./assets/neon-interface.svg" width="100%" alt="Fine-line interface illustration" />
+
 **Interfaces, 3D & motion**
 
 An interactive showcase of my projects and experience, built with React and TypeScript.
@@ -80,24 +86,28 @@ The planner coordinates separate clients and services, so tests can replace exte
 
 </details>
 
+<img src="./assets/neon-contributions.svg" width="100%" alt="Open source circuit divider" />
+
 ## Contributions beyond my repositories
 
 <table>
 <tr>
-<td width="25%"><strong>Apache Airflow</strong><br><br><img src="./assets/merged.svg" alt="Merged" /></td>
+<td width="25%"><strong>Apache Airflow</strong><br><br><img src="./assets/neon-merged.svg" alt="Merged" /></td>
 <td><strong><a href="https://github.com/apache/airflow/pull/72659">Async datetime sensor fix ↗</a></strong><br><br>Fixed DAG parsing failures caused by templated targets. Deferred handling until the target value is ready to resolve.</td>
 </tr>
 <tr>
-<td><strong>django-stubs</strong><br><br><img src="./assets/merged.svg" alt="Merged" /></td>
+<td><strong>django-stubs</strong><br><br><img src="./assets/neon-merged.svg" alt="Merged" /></td>
 <td><strong><a href="https://github.com/typeddjango/django-stubs/pull/3642">Mutable request typing ↗</a></strong><br><br>Added a mutable HttpRequest helper for tests and request factories while preserving request subclass inference.</td>
 </tr>
 <tr>
-<td><strong>AMD Gaia</strong><br><br><img src="./assets/merged.svg" alt="Merged" /></td>
+<td><strong>AMD Gaia</strong><br><br><img src="./assets/neon-merged.svg" alt="Merged" /></td>
 <td><strong><a href="https://github.com/amd/gaia/pull/3263">Telegram media feedback ↗</a></strong><br><br>Added explicit feedback for unsupported uploads and a regression test for the video path.</td>
 </tr>
 </table>
 
 [**Browse more merged contributions →**](https://github.com/search?q=is%3Apr+is%3Amerged+author%3ASIBTAIN-ASAD+-user%3ASIBTAIN-ASAD&type=pullrequests)
+
+<img src="./assets/neon-toolkit.svg" width="100%" alt="Engineering toolkit circuit divider" />
 
 ## Engineering toolkit
 
@@ -120,6 +130,8 @@ The planner coordinates separate clients and services, so tests can replace exte
 </details>
 
 ---
+
+<img src="./assets/neon-connect.svg" width="100%" alt="Connect circuit divider" />
 
 ### Let's build something useful.
 

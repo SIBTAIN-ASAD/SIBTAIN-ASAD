@@ -1,15 +1,15 @@
 # Muhammad Sibtain Asad
 
 **Software Engineer** · Lahore, Pakistan<br>
-Building web applications and APIs. Exploring AI. Contributing to open source.
+TypeScript · React · Python · Django
 
 [**Portfolio ↗**](https://www.sibtainasad.com/) &nbsp; · &nbsp; [**LinkedIn ↗**](https://www.linkedin.com/in/sibtain-asad/) &nbsp; · &nbsp; [**Explore my code ↗**](https://github.com/SIBTAIN-ASAD?tab=repositories)
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/neon-core-dark.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/neon-core-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/neon-core-dark.gif" />
-  <img src="./assets/neon-core-light.gif" width="100%" alt="From interface to intelligence. Web engineering and AI exploration, illustrated by a rotating fine-line neural wireframe and moving circuit lights." />
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/profile-neon-dark.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-neon-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-neon-dark.gif" />
+  <img src="./assets/profile-neon-light.gif" width="100%" alt="Muhammad Sibtain Asad. Software Engineer based in Lahore, Pakistan. GitHub: SIBTAIN-ASAD. Animated neon wireframe and circuit lights." />
 </picture>
 
 <p>
@@ -22,11 +22,13 @@ Building web applications and APIs. Exploring AI. Contributing to open source.
   <img src="./assets/neon-pytorch.svg" alt="PyTorch" />
 </p>
 
-I work across the stack, from **React interfaces** to **Python services**, with an interest in the details that make software dependable: clear APIs, useful types, automated tests, and well-handled edge cases.
+I'm **Muhammad Sibtain Asad**, a software engineer based in **Lahore, Pakistan**. I work with **TypeScript, React, Python, and Django** on web applications and APIs.
+
+My public projects include **Spotter**, a route and fuel-planning API, and **SAM**, my interactive portfolio. I've also contributed merged fixes, typing improvements, and tests to **Apache Airflow**, **django-stubs**, and **AMD Gaia**.
 
 <img src="./assets/neon-work.svg" width="100%" alt="Selected work circuit divider" />
 
-## Featured repositories
+## My projects
 
 <table>
 <tr>
@@ -37,7 +39,7 @@ I work across the stack, from **React interfaces** to **Python services**, with 
 
 **Route & fuel planning**
 
-A Django REST API and interactive map for planning US driving routes and recommending fuel stops.
+My route-planning project combines a Django REST API with an interactive map to plan US driving routes and recommend fuel stops.
 
 - GeoJSON route geometry
 - Fuel-price and range-based optimization
@@ -56,7 +58,7 @@ A Django REST API and interactive map for planning US driving routes and recomme
 
 **Interfaces, 3D & motion**
 
-An interactive showcase of my projects and experience, built with React and TypeScript.
+My personal portfolio brings together my projects and experience using React, TypeScript, 3D visuals, and motion.
 
 - Component-based interface
 - Three.js visual elements
@@ -88,20 +90,20 @@ The planner coordinates separate clients and services, so tests can replace exte
 
 <img src="./assets/neon-contributions.svg" width="100%" alt="Open source circuit divider" />
 
-## Contributions beyond my repositories
+## My open-source contributions
 
 <table>
 <tr>
 <td width="25%"><strong>Apache Airflow</strong><br><br><img src="./assets/neon-merged.svg" alt="Merged" /></td>
-<td><strong><a href="https://github.com/apache/airflow/pull/72659">Async datetime sensor fix ↗</a></strong><br><br>Fixed DAG parsing failures caused by templated targets. Deferred handling until the target value is ready to resolve.</td>
+<td><strong><a href="https://github.com/apache/airflow/pull/72659">Async datetime sensor fix ↗</a></strong><br><br>I fixed DAG parsing failures caused by templated targets, deferring handling until the target value is ready to resolve.</td>
 </tr>
 <tr>
 <td><strong>django-stubs</strong><br><br><img src="./assets/neon-merged.svg" alt="Merged" /></td>
-<td><strong><a href="https://github.com/typeddjango/django-stubs/pull/3642">Mutable request typing ↗</a></strong><br><br>Added a mutable HttpRequest helper for tests and request factories while preserving request subclass inference.</td>
+<td><strong><a href="https://github.com/typeddjango/django-stubs/pull/3642">Mutable request typing ↗</a></strong><br><br>I added a mutable HttpRequest helper for tests and request factories while preserving request subclass inference.</td>
 </tr>
 <tr>
 <td><strong>AMD Gaia</strong><br><br><img src="./assets/neon-merged.svg" alt="Merged" /></td>
-<td><strong><a href="https://github.com/amd/gaia/pull/3263">Telegram media feedback ↗</a></strong><br><br>Added explicit feedback for unsupported uploads and a regression test for the video path.</td>
+<td><strong><a href="https://github.com/amd/gaia/pull/3263">Telegram media feedback ↗</a></strong><br><br>I added explicit feedback for unsupported uploads and a regression test for the video path.</td>
 </tr>
 </table>
 
@@ -109,23 +111,21 @@ The planner coordinates separate clients and services, so tests can replace exte
 
 <img src="./assets/neon-toolkit.svg" width="100%" alt="Engineering toolkit circuit divider" />
 
-## Engineering toolkit
+## Technologies I use
 
-| Build the interface | Design the service | Ship & operate | Explore AI |
+| Frontend | Backend | Infrastructure | Machine learning |
 | :--- | :--- | :--- | :--- |
 | TypeScript · JavaScript | Python · Django | Docker | PyTorch |
 | React · Next.js | Django REST · FastAPI | GitHub Actions | TensorFlow |
-| Tailwind CSS | PostgreSQL · Redis | AWS · Azure · GCP | Reinforcement learning |
-| Three.js · Framer Motion | API design & testing | Cloud infrastructure | Experimentation |
+| Tailwind CSS | PostgreSQL · Redis | AWS · Azure · GCP | |
+| Three.js · Framer Motion | API design & testing | Cloud infrastructure | Reinforcement learning |
 
 <details>
-<summary><strong>A little more about how I work</strong></summary>
+<summary><strong>More from my repositories</strong></summary>
 
-- I enjoy connecting an interface to the services behind it.
-- I like investigating the failure cases behind apparently simple features.
-- My open-source contributions include bug fixes, stronger types, and regression tests.
-- Alongside web development, I explore reinforcement learning and practical AI applications.
-- I also work with C++ and keep data structures and algorithms projects in my repositories.
+- [C data structures and algorithms](https://github.com/SIBTAIN-ASAD/C-ADTs-DSA) — heap and binary search tree implementations.
+- [Quora-style web application](https://github.com/SIBTAIN-ASAD/quora) — questions, answers, and comments.
+- [C++ Checkers](https://github.com/SIBTAIN-ASAD/Checkers-C-) — a checkers game with move suggestions and file-based game data.
 
 </details>
 
@@ -133,7 +133,7 @@ The planner coordinates separate clients and services, so tests can replace exte
 
 <img src="./assets/neon-connect.svg" width="100%" alt="Connect circuit divider" />
 
-### Let's build something useful.
+### Find me online
 
-Have an engineering problem, a project, or an open-source idea to discuss?<br>
+
 [**Connect on LinkedIn ↗**](https://www.linkedin.com/in/sibtain-asad/) · [**Visit my portfolio ↗**](https://www.sibtainasad.com/)

@@ -28,10 +28,10 @@ for theme in ['dark','light']:
   im=Image.new('RGB',(W*S,H*S),bg);d=ImageDraw.Draw(im)
   # Open corner brackets and hairline accents, without a filled panel.
   for pts in [[(0,30),(0,1),(31,1)],[(969,1),(999,1),(999,30)],[(0,220),(0,249),(31,249)],[(969,249),(999,249),(999,220)]]:line(d,pts,faint,.6)
-  text(d,(22,20),'WEB ENGINEERING / AI EXPLORATION',14,muted,True)
-  text(d,(20,66),'From interface',39,fg)
-  text(d,(20,111),'to intelligence.',39,fg)
-  text(d,(22,183),'TYPESCRIPT  /  PYTHON  /  OPEN SOURCE',13,muted,True)
+  text(d,(22,20),'SOFTWARE ENGINEER / LAHORE, PAKISTAN',14,muted,True)
+  text(d,(20,66),'Muhammad',39,fg)
+  text(d,(20,111),'Sibtain Asad',43,fg)
+  text(d,(22,183),'SIBTAIN-ASAD / GITHUB',13,muted,True)
   line(d,[(23,223),(250,223),(265,211),(480,211)],faint,.7)
   # A moving pin-light, with a short fading trail, follows the lower trace.
   x=23+(f/96)*215
@@ -72,9 +72,9 @@ for theme in ['dark','light']:
  for n in range(4):palette.paste(frames[n*24],(0,n*H))
  palette=palette.quantize(colors=192)
  quant=[im.quantize(palette=palette,dither=Image.Dither.NONE) for im in frames]
- quant[0].save(OUT/f'neon-core-{theme}.gif',save_all=True,append_images=quant[1:],duration=80,loop=0,optimize=True,disposal=1)
- frames[24].save(OUT/f'neon-core-{theme}.png')
- print(theme,(OUT/f'neon-core-{theme}.gif').stat().st_size//1024,'KB')
+ quant[0].save(OUT/f'profile-neon-{theme}.gif',save_all=True,append_images=quant[1:],duration=80,loop=0,optimize=True,disposal=1)
+ frames[24].save(OUT/f'profile-neon-{theme}.png')
+ print(theme,(OUT/f'profile-neon-{theme}.gif').stat().st_size//1024,'KB')
 
 # Fine outlined badges, using theme-aware text and no opaque background.
 badges=[('typescript','TS','TypeScript'),('python','Py','Python'),('react','R','React'),('django','Dj','Django'),('postgresql','Pg','PostgreSQL'),('docker','D','Docker'),('pytorch','AI','PyTorch'),('merged','PR','Merged')]

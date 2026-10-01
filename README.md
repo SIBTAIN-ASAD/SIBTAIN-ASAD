@@ -1,55 +1,79 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Muhammad Sibtain Asad — Software Engineer. Thoughtful interfaces. Reliable systems." />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-hero-static.png" />
+    <img src="./assets/profile-hero.gif" width="100%" alt="Muhammad Sibtain Asad, software engineer in Lahore. Animated particle sphere and terminal: build thoughtful interfaces; engineer dependable systems." />
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://www.sibtainasad.com/"><strong>Portfolio</strong></a>
-  &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/sibtain-asad/"><strong>LinkedIn</strong></a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/SIBTAIN-ASAD?tab=repositories"><strong>Repositories</strong></a>
+  <a href="https://www.sibtainasad.com/"><strong>EXPLORE PORTFOLIO ↗</strong></a>
+  &nbsp; &nbsp; / &nbsp; &nbsp;
+  <a href="https://www.linkedin.com/in/sibtain-asad/"><strong>CONNECT ON LINKEDIN ↗</strong></a>
+  &nbsp; &nbsp; / &nbsp; &nbsp;
+  <a href="https://github.com/SIBTAIN-ASAD?tab=repositories"><strong>VIEW CODE ↗</strong></a>
 </p>
 
-## A little about me
+<br>
+
+### Building across the stack. Exploring what comes next.
 
 I'm **Muhammad Sibtain Asad**, a software engineer based in **Lahore, Pakistan**. I build web applications and APIs with **TypeScript, React, Python, and Django**, and explore AI and cloud infrastructure.
 
-I enjoy working across the stack: shaping an interface, designing the API behind it, and tracking down the edge cases that make software more dependable. My open-source work includes fixes, typing improvements, and tests in projects I care about.
+From the interface to the service behind it, I care about the details that make software useful and dependable. Here you'll find personal projects, experiments, and contributions to open source.
 
-## Selected work
+<br>
 
-### [Spotter · Route & fuel planning](https://github.com/SIBTAIN-ASAD/Spotter)
-A Django REST API and interactive map for planning US driving routes and recommending fuel stops from a local price dataset. Includes a fuel optimization algorithm, injectable service clients, automated tests, and Docker setup.
+## Selected builds
 
-`Python` · `Django REST Framework` · `GeoJSON` · `Docker` · `pytest`
+<a href="https://github.com/SIBTAIN-ASAD/Spotter">
+  <img src="./assets/project-spotter.png" width="100%" alt="Spotter: US route and fuel planning with a Django REST API, interactive map, automated tests, and Docker." />
+</a>
 
-### [SAM · Personal portfolio](https://github.com/SIBTAIN-ASAD/SAM-portfolio)
-My portfolio brings together projects and experience through an interactive React interface, 3D visuals, and motion.
+**[Explore Spotter ↗](https://github.com/SIBTAIN-ASAD/Spotter)** · Route planning, fuel optimization, and an interactive map.
 
-`TypeScript` · `React` · `Three.js` · `Tailwind CSS` · `Framer Motion`
+<br>
 
-**[Explore the portfolio ↗](https://www.sibtainasad.com/)**
+<a href="https://github.com/SIBTAIN-ASAD/SAM-portfolio">
+  <img src="./assets/project-portfolio.png" width="100%" alt="SAM portfolio: an interactive React and TypeScript showcase with Three.js visuals and motion." />
+</a>
 
-## Open-source contributions
+**[View the live portfolio ↗](https://www.sibtainasad.com/)** · **[Browse the source ↗](https://github.com/SIBTAIN-ASAD/SAM-portfolio)**
 
-A few merged contributions:
+<br>
 
-- **[Apache Airflow](https://github.com/apache/airflow/pull/72659)** — Fixed DAG parsing failures caused by templated targets in `DateTimeSensorAsync`.
-- **[django-stubs](https://github.com/typeddjango/django-stubs/pull/3642)** — Added a mutable `HttpRequest` typing helper for tests and request factories.
-- **[AMD Gaia](https://github.com/amd/gaia/pull/3263)** — Added explicit feedback for unsupported Telegram media and a regression test.
+## Beyond my own code
 
-[More contributions ↗](https://github.com/search?q=is%3Apr+is%3Amerged+author%3ASIBTAIN-ASAD+-user%3ASIBTAIN-ASAD&type=pullrequests)
+Real fixes. Merged contributions.
 
-## Tools I work with
+| Project | Contribution | Status |
+| :--- | :--- | :--- |
+| **Apache Airflow** | [Fixed DAG parsing failures for templated async datetime sensors ↗](https://github.com/apache/airflow/pull/72659) | Merged |
+| **django-stubs** | [Added a mutable HttpRequest typing helper for tests and request factories ↗](https://github.com/typeddjango/django-stubs/pull/3642) | Merged |
+| **AMD Gaia** | [Added feedback for unsupported Telegram media and a regression test ↗](https://github.com/amd/gaia/pull/3263) | Merged |
 
-**Languages** &nbsp; TypeScript · JavaScript · Python · C++
+**[Explore more contributions ↗](https://github.com/search?q=is%3Apr+is%3Amerged+author%3ASIBTAIN-ASAD+-user%3ASIBTAIN-ASAD&type=pullrequests)**
 
-**Web & APIs** &nbsp; React · Next.js · Django · Django REST Framework · FastAPI · Tailwind CSS
+<br>
 
-**Data & infrastructure** &nbsp; PostgreSQL · Redis · Docker · GitHub Actions · AWS · Azure · Google Cloud
+## Tools behind the work
 
-**AI & experimentation** &nbsp; PyTorch · TensorFlow · Reinforcement learning
+<img src="./assets/toolkit.png" width="100%" alt="Interfaces: TypeScript, React, Next.js, Tailwind CSS. Backend: Python, Django, FastAPI, PostgreSQL. Infrastructure: Docker, GitHub Actions, AWS, Azure, Google Cloud. AI exploration: PyTorch, TensorFlow, reinforcement learning." />
 
----
+<details>
+<summary><strong>Explore the full toolkit</strong></summary>
 
-Have an interesting engineering problem or an open-source idea? **[Let's connect on LinkedIn.](https://www.linkedin.com/in/sibtain-asad/)**
+- **Languages:** TypeScript, JavaScript, Python, C++
+- **Interfaces:** React, Next.js, Tailwind CSS, Three.js, Framer Motion
+- **APIs & data:** Django, Django REST Framework, FastAPI, PostgreSQL, Redis
+- **Infrastructure:** Docker, GitHub Actions, AWS, Azure, Google Cloud
+- **AI & experimentation:** PyTorch, TensorFlow, reinforcement learning
+
+</details>
+
+<br>
+
+<a href="https://www.linkedin.com/in/sibtain-asad/">
+  <img src="./assets/connect.png" width="100%" alt="Good software starts with a conversation. Let's connect on LinkedIn about engineering, collaborations, and open-source ideas." />
+</a>
+
+<p align="center"><sub>Thoughtful interfaces. Dependable systems. Always exploring.</sub></p>

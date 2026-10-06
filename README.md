@@ -11,7 +11,15 @@ I’m **Muhammad Sibtain Asad**, a software engineer based in **Lahore, Pakistan
 
 At **NavForward**, my work covers backend services and distributed scraping pipelines. Previously, I worked on **AI-agent evaluation at Turing**, **healthcare and AI workflow products at Devsinc**, and **production operations at i2c**. I also contribute fixes, typing improvements, and regression tests to open source.
 
-## Professional experience
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/career-mobile-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/career-mobile-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/career-dark.png" />
+  <img src="./assets/career-light.png" width="100%" alt="Professional experience: NavForward, Senior Software Engineer; Turing and Devsinc, Software Engineer; i2c, Associate Software Engineer." />
+</picture>
+
+<details>
+<summary><strong>Career history, responsibilities & earlier experience</strong></summary>
 
 ### NavForward · Senior Software Engineer
 <sub>June 2025 – Present · Remote</sub>
@@ -53,7 +61,19 @@ Web applications, dashboards, REST APIs, integrations, and ongoing maintenance f
 
 </details>
 
-## Selected professional work
+</details>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/professional-work-mobile-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/professional-work-mobile-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/professional-work-dark.png" />
+  <img src="./assets/professional-work-light.png" width="100%" alt="Selected work: legal data intelligence at NavForward, healthcare workflows at Devsinc, and AI-agent evaluation at Turing." />
+</picture>
+
+<details>
+<summary><strong>Read the professional project stories</strong></summary>
 
 **Legal data intelligence · NavForward**<br>
 I worked on data-collection services where scraping, background jobs, and API delivery needed to work together. The implementation combined Django, Selenium, Celery, and Redis with retries and duplicate detection, deployed through Docker and AWS.
@@ -64,10 +84,23 @@ My work connected a React and TypeScript frontend to enterprise workflows, inclu
 **AI-agent evaluation · Turing**<br>
 I worked on assessing whether agents completed their assigned tasks, including evaluation datasets, scoring pipelines, and prompt refinement. This was evaluation and training work, alongside my application-engineering experience.
 
+</details>
+
+<br>
+
 ## Selected projects
 
-<table>
-<tr><td>
+<a href="https://github.com/SIBTAIN-ASAD/Spotter">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/spotter-panel-mobile-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/spotter-panel-mobile-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/spotter-panel-dark.png" />
+  <img src="./assets/spotter-panel-light.png" width="100%" alt="Spotter: route planning and fuel optimization, built with Python, Django REST, GeoJSON, Docker and automated tests." />
+</picture>
+</a>
+
+<details>
+<summary><strong>Spotter — problem, implementation & engineering detail</strong></summary>
 
 ### [Spotter](https://github.com/SIBTAIN-ASAD/Spotter)
 
@@ -83,8 +116,21 @@ I worked on assessing whether agents completed their assigned tasks, including e
 
 [Repository →](https://github.com/SIBTAIN-ASAD/Spotter) &nbsp; [Implementation notes →](https://github.com/SIBTAIN-ASAD/Spotter#readme)
 
-</td></tr>
-<tr><td>
+</details>
+
+<br>
+
+<a href="https://www.sibtainasad.com/">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/portfolio-panel-mobile-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/portfolio-panel-mobile-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/portfolio-panel-dark.png" />
+  <img src="./assets/portfolio-panel-light.png" width="100%" alt="SAM Portfolio: my experience, projects and code, presented using React, TypeScript, Three.js and motion." />
+</picture>
+</a>
+
+<details>
+<summary><strong>SAM Portfolio — implementation & source</strong></summary>
 
 ### [SAM Portfolio](https://github.com/SIBTAIN-ASAD/SAM-portfolio)
 
@@ -98,10 +144,41 @@ I worked on assessing whether agents completed their assigned tasks, including e
 
 [Live portfolio →](https://www.sibtainasad.com/) &nbsp; [Source →](https://github.com/SIBTAIN-ASAD/SAM-portfolio)
 
-</td></tr>
-</table>
+</details>
+
+<br>
 
 ## Open-source contributions
+
+<a href="https://github.com/apache/airflow/pull/72659">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-airflow-mobile-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/contribution-airflow-mobile-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-airflow-dark.png" />
+  <img src="./assets/contribution-airflow-light.png" width="100%" alt="Apache Airflow: merged async datetime sensor fix, pull request 72659." />
+</picture>
+</a>
+
+<a href="https://github.com/typeddjango/django-stubs/pull/3642">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-django-mobile-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/contribution-django-mobile-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-django-dark.png" />
+  <img src="./assets/contribution-django-light.png" width="100%" alt="django-stubs: merged mutable request typing helper, pull request 3642." />
+</picture>
+</a>
+
+<a href="https://github.com/amd/gaia/pull/3263">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-gaia-mobile-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/contribution-gaia-mobile-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-gaia-dark.png" />
+  <img src="./assets/contribution-gaia-light.png" width="100%" alt="AMD Gaia: merged Telegram media feedback and regression test, pull request 3263." />
+</picture>
+</a>
+
+<details>
+<summary><strong>Contribution details & all merged pull requests</strong></summary>
 
 These changes were accepted and merged into the upstream projects. Each addresses a specific failure or developer-experience issue.
 
@@ -113,7 +190,19 @@ These changes were accepted and merged into the upstream projects. Each addresse
 
 [All merged contributions →](https://github.com/search?q=is%3Apr+is%3Amerged+author%3ASIBTAIN-ASAD+-user%3ASIBTAIN-ASAD&type=pullrequests)
 
-## Technical background
+</details>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/skills-panel-mobile-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/skills-panel-mobile-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-panel-dark.png" />
+  <img src="./assets/skills-panel-light.png" width="100%" alt="Technical background: frontend; backend and data; infrastructure; machine learning." />
+</picture>
+
+<details>
+<summary><strong>Full technology list</strong></summary>
 
 | Area | Technologies |
 | :--- | :--- |
@@ -121,6 +210,8 @@ These changes were accepted and merged into the upstream projects. Each addresse
 | **Backend & data** | Python, Django, Django REST Framework, FastAPI, PostgreSQL, Redis |
 | **Infrastructure** | Docker, GitHub Actions, AWS, Azure, Google Cloud |
 | **Machine learning** | PyTorch, TensorFlow, reinforcement learning |
+
+</details>
 
 <details>
 <summary>More projects & implementation details</summary>

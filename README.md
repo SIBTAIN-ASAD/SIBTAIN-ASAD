@@ -13,6 +13,7 @@ Backend systems, full-stack applications, data pipelines, and AI-agent evaluatio
 <a href="https://github.com/SIBTAIN-ASAD?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/action-repos-dark.svg" /><img src="./assets/action-repos-light.svg" alt="Repositories ↗" width="136" /></picture></a></p>
 
 <a id="open-source"></a>
+
 <picture>
 <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/interface-oss-mobile-dark.svg" />
 <source media="(max-width: 600px)" srcset="./assets/interface-oss-mobile-light.svg" />
@@ -31,6 +32,7 @@ Three selected contributions, accepted and merged upstream.
 <a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3ASIBTAIN-ASAD+-user%3ASIBTAIN-ASAD&amp;type=pullrequests"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/action-prs-dark.svg" /><img src="./assets/action-prs-light.svg" alt="View merged PRs ↗" width="164" /></picture></a>
 
 <a id="projects"></a>
+
 <picture>
 <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/interface-build-mobile-dark.svg" />
 <source media="(max-width: 600px)" srcset="./assets/interface-build-mobile-light.svg" />
@@ -51,6 +53,7 @@ My experience and projects in a React interface with 3D visuals and motion. [Sou
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-flow-portfolio-dark.svg" /><img src="./assets/project-flow-portfolio-light.svg" width="360" alt="Portfolio: React, 3D scene, motion" /></picture>
 
 <a id="experience"></a>
+
 <picture>
 <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/interface-career-mobile-dark.svg" />
 <source media="(max-width: 600px)" srcset="./assets/interface-career-mobile-light.svg" />
@@ -80,6 +83,7 @@ My experience and projects in a React interface with 3D visuals and motion. [Sou
 <a href="./docs/BACKGROUND.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/action-background-dark.svg" /><img src="./assets/action-background-light.svg" alt="Full background ↗" width="156" /></picture></a>
 
 <a id="github-activity"></a>
+
 <picture>
 <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/interface-activity-mobile-dark.svg" />
 <source media="(max-width: 600px)" srcset="./assets/interface-activity-mobile-light.svg" />
@@ -97,6 +101,7 @@ My experience and projects in a React interface with 3D visuals and motion. [Sou
 <sub>Daily refresh · streaks use Pakistan calendar days (PKT) · [View contribution history](https://github.com/SIBTAIN-ASAD?tab=overview)</sub>
 
 <a id="technologies--tools"></a>
+
 <picture>
 <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/interface-tools-mobile-dark.svg" />
 <source media="(max-width: 600px)" srcset="./assets/interface-tools-mobile-light.svg" />

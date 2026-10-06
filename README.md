@@ -5,14 +5,14 @@
   <img src="./assets/masthead-light.gif" width="100%" alt="Muhammad Sibtain Asad — Software Engineer. Lahore, Pakistan. SIBTAIN-ASAD on GitHub." />
 </picture>
 
-**Software engineer · Lahore, Pakistan**  
+**Software engineer · Lahore, Pakistan**<br>
 Backend systems, full-stack applications, data pipelines, and AI-agent evaluation.
 
 <p><a href="https://www.sibtainasad.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-portfolio-dark.svg" /><img src="./assets/link-portfolio-light.svg" alt="Portfolio ↗" width="112" /></picture></a>
 <a href="https://www.linkedin.com/in/sibtain-asad/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-linkedin-dark.svg" /><img src="./assets/link-linkedin-light.svg" alt="LinkedIn ↗" width="106" /></picture></a>
 <a href="https://github.com/SIBTAIN-ASAD?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-repos-dark.svg" /><img src="./assets/link-repos-light.svg" alt="Repositories ↗" width="136" /></picture></a></p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-oss-dark.svg" /><img src="./assets/section-oss-light.svg" alt="01 / OPEN SOURCE" width="720" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-oss-dark.svg" /><img src="./assets/section-oss-light.svg" alt="01 / OPEN SOURCE" width="360" /></picture>
 
 Three selected contributions, accepted and merged upstream.
 
@@ -24,17 +24,17 @@ Three selected contributions, accepted and merged upstream.
 
 <a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3ASIBTAIN-ASAD+-user%3ASIBTAIN-ASAD&amp;type=pullrequests"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-prs-dark.svg" /><img src="./assets/link-prs-light.svg" alt="View merged PRs ↗" width="164" /></picture></a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-build-dark.svg" /><img src="./assets/section-build-light.svg" alt="02 / SELECTED PROJECTS" width="720" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-build-dark.svg" /><img src="./assets/section-build-light.svg" alt="02 / SELECTED PROJECTS" width="360" /></picture>
 
-**[Spotter](https://github.com/SIBTAIN-ASAD/Spotter)** · Route planning & fuel optimization  
-Django REST API and map for US routes and fuel stops. Separate routing services, injectable clients, and automated tests.  
+**[Spotter](https://github.com/SIBTAIN-ASAD/Spotter)** · Route planning & fuel optimization<br>
+Django REST API and map for US routes and fuel stops. Separate routing services, injectable clients, and automated tests.<br>
 <sub>Python · Django REST · GeoJSON · Docker · pytest</sub>
 
-**[SAM Portfolio](https://www.sibtainasad.com/)** · Interactive personal portfolio  
-My experience and projects in a React interface with 3D visuals and motion. [Source ↗](https://github.com/SIBTAIN-ASAD/SAM-portfolio)  
+**[SAM Portfolio](https://www.sibtainasad.com/)** · Interactive personal portfolio<br>
+My experience and projects in a React interface with 3D visuals and motion. [Source ↗](https://github.com/SIBTAIN-ASAD/SAM-portfolio)<br>
 <sub>TypeScript · React · Three.js · Framer Motion</sub>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-career-dark.svg" /><img src="./assets/section-career-light.svg" alt="03 / EXPERIENCE" width="720" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-career-dark.svg" /><img src="./assets/section-career-light.svg" alt="03 / EXPERIENCE" width="360" /></picture>
 
 | Team | Role & focus |
 | :--- | :--- |
@@ -45,7 +45,7 @@ My experience and projects in a React interface with 3D visuals and motion. [Sou
 
 <a href="./docs/BACKGROUND.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-background-dark.svg" /><img src="./assets/link-background-light.svg" alt="Full background ↗" width="156" /></picture></a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-dark.svg" /><img src="./assets/section-stack-light.svg" alt="04 / CORE STACK" width="720" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-dark.svg" /><img src="./assets/section-stack-light.svg" alt="04 / CORE STACK" width="360" /></picture>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-python-dark.svg" /><img src="./assets/stack-python-light.svg" alt="Python" width="79" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-django-dark.svg" /><img src="./assets/stack-django-light.svg" alt="Django" width="80" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-fastapi-dark.svg" /><img src="./assets/stack-fastapi-light.svg" alt="FastAPI" width="85" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-react-dark.svg" /><img src="./assets/stack-react-light.svg" alt="React" width="75" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-typescript-dark.svg" /><img src="./assets/stack-typescript-light.svg" alt="TypeScript" width="105" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-postgres-dark.svg" /><img src="./assets/stack-postgres-light.svg" alt="PostgreSQL" width="109" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-docker-dark.svg" /><img src="./assets/stack-docker-light.svg" alt="Docker" width="82" /></picture> </p>
 

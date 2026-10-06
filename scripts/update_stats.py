@@ -25,6 +25,7 @@ def render(calendar,today):
   for mobile in [False,True]:
    W=360 if mobile else 720;H=206 if mobile else 210
    s=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="6" fill="{panel}" stroke="{border}"/>']
+   s.append(f'<path d="M1 25V7L7 1H38M{W-38} {H-1}H{W-7}L{W-1} {H-7}V{H-25}" fill="none" stroke="{colors[0]}" stroke-width="1"/><path d="M40 1H{W//2}" stroke="{colors[2]}" stroke-opacity=".4"/>')
    def text(x,y,t,size=12,color=muted,weight=400):s.append(f'<text x="{x}" y="{y}" fill="{color}" font-family="Arial,sans-serif" font-size="{size}" font-weight="{weight}">{t}</text>')
    text(16,25,'GITHUB ACTIVITY',11,fg,600);text(16,43,'Past year · updated '+today.isoformat()+' PKT',10)
    labels=['Contributions','Current streak','Longest streak']

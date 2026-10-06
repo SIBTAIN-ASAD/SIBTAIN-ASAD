@@ -14,38 +14,38 @@ These changes were accepted and merged into the upstream projects. Each addresse
 
 ---
 
-### NavForward · Senior Software Engineer
+### <img src="../assets/companies/navforward.png" width="28" alt="NavForward logo" /> NavForward · Senior Software Engineer
 <sub>June 2025 – Present · Remote</sub>
 
 - Designed Django and Django REST Framework backend services and helped define microservice boundaries for US product teams.
 - Built Selenium and Celery scraping pipelines with Redis-backed task processing, retries, and duplicate detection; worked with Docker, AWS, and MySQL-backed APIs.
 
-### Turing · Software Engineer
+### <img src="../assets/companies/turing.jpg" width="28" alt="Turing logo" /> Turing · Software Engineer
 <sub>June 2025 – December 2025 · Remote</sub>
 
 - Worked on LLM training for AI agents and evaluation of agent task completion.
 - Built evaluation pipelines covering dataset design, scoring, and prompt-refinement workflows.
 
-### Devsinc · Software Engineer
+### <img src="../assets/companies/devsinc.jpeg" width="28" alt="Devsinc logo" /> Devsinc · Software Engineer
 <sub>November 2023 – June 2025 · Lahore, hybrid</sub>
 
 - Built full-stack enterprise applications with React, Django, and FastAPI for healthcare and AI workflow products.
 - Led frontend architecture with TypeScript and Material UI, including component systems and state patterns; worked on Adobe authentication, Microsoft Dynamics integrations, and patient-referral workflows.
 
-### i2c · Associate Software Engineer
+### <img src="../assets/companies/i2c.png" width="28" alt="i2c logo" /> i2c · Associate Software Engineer
 <sub>September 2023 – November 2023 · Lahore</sub>
 
 - Supported deployments, release workflows, infrastructure monitoring, and operational runbooks.
 - Worked with engineering teams to troubleshoot production issues and improve handoffs between operations and development.
 
 
-**Q Information Hub · Software Engineer** · June 2021 – October 2023<br>
+<img src="../assets/companies/qInformationHub.jpeg" width="28" alt="Q Information Hub logo" /> **Q Information Hub · Software Engineer** · June 2021 – October 2023<br>
 React and Django applications, REST APIs, JWT authentication, role-based access control, and PostgreSQL query optimization.
 
-**Fiverr · Freelance Full Stack Engineer** · March 2021 – October 2023<br>
+<img src="../assets/companies/Fiverr.png" width="28" alt="Fiverr logo" /> **Fiverr · Freelance Full Stack Engineer** · March 2021 – October 2023<br>
 React and Django projects, AWS deployments, Firebase backends, and third-party integrations, from scoping through delivery.
 
-**Upwork · Freelance Full Stack Engineer** · June 2020 – May 2023<br>
+<img src="../assets/companies/upwork.png" width="28" alt="Upwork logo" /> **Upwork · Freelance Full Stack Engineer** · June 2020 – May 2023<br>
 Web applications, dashboards, REST APIs, integrations, and ongoing maintenance for client teams.
 
 [More about my experience →](https://www.sibtainasad.com/)

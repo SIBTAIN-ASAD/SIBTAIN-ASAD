@@ -36,14 +36,26 @@ Django REST API and map for US routes and fuel stops. Separate routing services,
 My experience and projects in a React interface with 3D visuals and motion. [Source ↗](https://github.com/SIBTAIN-ASAD/SAM-portfolio)<br>
 <sub>TypeScript · React · Three.js · Framer Motion</sub>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-career-dark.svg" /><img src="./assets/section-career-light.svg" alt="03 / EXPERIENCE" width="360" /></picture>
+## Experience
 
-| Team | Role & focus |
-| :--- | :--- |
-| **NavForward**<br><sub>Jun 2025–Present</sub> | **Senior Software Engineer** · Backend architecture and distributed scraping pipelines. |
-| **Turing**<br><sub>Jun–Dec 2025</sub> | **Software Engineer** · AI-agent training, evaluation datasets, and scoring. |
-| **Devsinc**<br><sub>Nov 2023–Jun 2025</sub> | **Software Engineer** · Healthcare workflows and React/TypeScript frontend architecture. |
-| **i2c**<br><sub>Sep–Nov 2023</sub> | **Associate Software Engineer** · Production operations, releases, and monitoring. |
+<table>
+<tr>
+<td width="64" align="center" valign="middle"><img src="./assets/companies/navforward.png" width="48" alt="NavForward logo" /></td>
+<td><strong>NavForward</strong> &nbsp; <img src="./assets/current-role.svg" width="55" height="18" alt="Current role" /><br><sub>Jun 2025–Present</sub><br><strong>Senior Software Engineer</strong><br>Backend architecture · distributed scraping pipelines</td>
+</tr>
+<tr>
+<td width="64" align="center" valign="middle"><img src="./assets/companies/turing.jpg" width="48" alt="Turing logo" /></td>
+<td><strong>Turing</strong><br><sub>Jun–Dec 2025</sub><br><strong>Software Engineer</strong><br>AI-agent training · evaluation datasets · scoring</td>
+</tr>
+<tr>
+<td width="64" align="center" valign="middle"><img src="./assets/companies/devsinc.jpeg" width="48" alt="Devsinc logo" /></td>
+<td><strong>Devsinc</strong><br><sub>Nov 2023–Jun 2025</sub><br><strong>Software Engineer</strong><br>Healthcare workflows · React/TypeScript architecture</td>
+</tr>
+<tr>
+<td width="64" align="center" valign="middle"><img src="./assets/companies/i2c.png" width="48" alt="i2c logo" /></td>
+<td><strong>i2c</strong><br><sub>Sep–Nov 2023</sub><br><strong>Associate Software Engineer</strong><br>Production operations · releases · monitoring</td>
+</tr>
+</table>
 
 <a href="./docs/BACKGROUND.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-background-dark.svg" /><img src="./assets/link-background-light.svg" alt="Full background ↗" width="156" /></picture></a>
 

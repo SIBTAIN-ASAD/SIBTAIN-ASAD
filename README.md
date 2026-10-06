@@ -7,7 +7,62 @@
 
 [Portfolio](https://www.sibtainasad.com/) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/sibtain-asad/) &nbsp; / &nbsp; [Repositories](https://github.com/SIBTAIN-ASAD?tab=repositories)
 
-I’m **Muhammad Sibtain Asad**, a software engineer working with **TypeScript, React, Python, and Django**. My work includes web applications, APIs, and open-source contributions to **Apache Airflow**, **django-stubs**, and **AMD Gaia**.
+I’m **Muhammad Sibtain Asad**, a software engineer based in **Lahore, Pakistan**. My experience spans backend architecture, full-stack enterprise applications, data-collection pipelines, and LLM evaluation. I work primarily with **Python, Django, FastAPI, React, and TypeScript**.
+
+At **NavForward**, my work covers backend services and distributed scraping pipelines. Previously, I worked on **AI-agent evaluation at Turing**, **healthcare and AI workflow products at Devsinc**, and **production operations at i2c**. I also contribute fixes, typing improvements, and regression tests to open source.
+
+## Professional experience
+
+### NavForward · Senior Software Engineer
+<sub>June 2025 – Present · Remote</sub>
+
+- Designed Django and Django REST Framework backend services and helped define microservice boundaries for US product teams.
+- Built Selenium and Celery scraping pipelines with Redis-backed task processing, retries, and duplicate detection; worked with Docker, AWS, and MySQL-backed APIs.
+
+### Turing · Software Engineer
+<sub>June 2025 – December 2025 · Remote</sub>
+
+- Worked on LLM training for AI agents and evaluation of agent task completion.
+- Built evaluation pipelines covering dataset design, scoring, and prompt-refinement workflows.
+
+### Devsinc · Software Engineer
+<sub>November 2023 – June 2025 · Lahore, hybrid</sub>
+
+- Built full-stack enterprise applications with React, Django, and FastAPI for healthcare and AI workflow products.
+- Led frontend architecture with TypeScript and Material UI, including component systems and state patterns; worked on Adobe authentication, Microsoft Dynamics integrations, and patient-referral workflows.
+
+### i2c · Associate Software Engineer
+<sub>September 2023 – November 2023 · Lahore</sub>
+
+- Supported deployments, release workflows, infrastructure monitoring, and operational runbooks.
+- Worked with engineering teams to troubleshoot production issues and improve handoffs between operations and development.
+
+<details>
+<summary>Earlier experience & freelance work</summary>
+
+**Q Information Hub · Software Engineer** · June 2021 – October 2023<br>
+React and Django applications, REST APIs, JWT authentication, role-based access control, and PostgreSQL query optimization.
+
+**Fiverr · Freelance Full Stack Engineer** · March 2021 – October 2023<br>
+React and Django projects, AWS deployments, Firebase backends, and third-party integrations, from scoping through delivery.
+
+**Upwork · Freelance Full Stack Engineer** · June 2020 – May 2023<br>
+Web applications, dashboards, REST APIs, integrations, and ongoing maintenance for client teams.
+
+[More about my experience →](https://www.sibtainasad.com/)
+
+</details>
+
+## Selected professional work
+
+**Legal data intelligence · NavForward**<br>
+I worked on data-collection services where scraping, background jobs, and API delivery needed to work together. The implementation combined Django, Selenium, Celery, and Redis with retries and duplicate detection, deployed through Docker and AWS.
+
+**Healthcare referral workflows · Devsinc**<br>
+My work connected a React and TypeScript frontend to enterprise workflows, including Adobe authentication and Microsoft Dynamics. I led frontend architecture while working with the wider team on patient-referral functionality.
+
+**AI-agent evaluation · Turing**<br>
+I worked on assessing whether agents completed their assigned tasks, including evaluation datasets, scoring pipelines, and prompt refinement. This was evaluation and training work, alongside my application-engineering experience.
 
 ## Selected projects
 
@@ -18,7 +73,11 @@ I’m **Muhammad Sibtain Asad**, a software engineer working with **TypeScript, 
 
 **Route planning & fuel optimization**
 
-My Django REST API and interactive map for US driving routes and fuel-stop recommendations. The implementation separates routing, geocoding, station lookup, and optimization into testable services.
+**The problem:** Plan a US driving route and recommend fuel stops using station prices and vehicle-range constraints.
+
+**My implementation:** A Django REST API and interactive map, with separate services for routing, geocoding, station lookup, and fuel optimization. The API returns GeoJSON route geometry and fuel recommendations.
+
+**Engineering detail:** Injectable external clients let tests exercise the planner without depending on live routing services. The project includes request IDs, health checks, throttling, and a Docker setup.
 
 <sub>Python &nbsp; · &nbsp; Django REST Framework &nbsp; · &nbsp; GeoJSON &nbsp; · &nbsp; Docker &nbsp; · &nbsp; pytest</sub>
 
@@ -31,7 +90,9 @@ My Django REST API and interactive map for US driving routes and fuel-stop recom
 
 **Personal portfolio & interactive frontend**
 
-My projects and experience, presented through a React interface with Three.js visuals and Framer Motion transitions.
+**The purpose:** Bring my professional experience and projects together in one personal site.
+
+**My implementation:** A React and TypeScript interface with Three.js visuals, Framer Motion transitions, and Tailwind CSS styling. The source organizes the experience, project, and technology content separately from the UI components.
 
 <sub>TypeScript &nbsp; · &nbsp; React &nbsp; · &nbsp; Three.js &nbsp; · &nbsp; Tailwind CSS &nbsp; · &nbsp; Framer Motion</sub>
 
@@ -42,13 +103,13 @@ My projects and experience, presented through a React interface with Three.js vi
 
 ## Open-source contributions
 
-Selected merged pull requests.
+These changes were accepted and merged into the upstream projects. Each addresses a specific failure or developer-experience issue.
 
-| Project | My contribution |
+| Project | Contribution & significance |
 | :--- | :--- |
-| **Apache Airflow** | [Fixed DAG parsing failures for templated async datetime sensors.](https://github.com/apache/airflow/pull/72659) |
-| **django-stubs** | [Added a mutable HttpRequest typing helper for tests and request factories.](https://github.com/typeddjango/django-stubs/pull/3642) |
-| **AMD Gaia** | [Added unsupported-media feedback for Telegram and a regression test.](https://github.com/amd/gaia/pull/3263) |
+| **Apache Airflow** | [Async datetime sensor fix](https://github.com/apache/airflow/pull/72659) — prevented raw Jinja targets from being parsed during DAG construction, preserving the normal rendering path. |
+| **django-stubs** | [Mutable request typing](https://github.com/typeddjango/django-stubs/pull/3642) — added a helper for tests and request factories while preserving inference for custom request subclasses. |
+| **AMD Gaia** | [Telegram media feedback](https://github.com/amd/gaia/pull/3263) — replaced silent handling of unsupported uploads with explicit feedback and a video-path regression test. |
 
 [All merged contributions →](https://github.com/search?q=is%3Apr+is%3Amerged+author%3ASIBTAIN-ASAD+-user%3ASIBTAIN-ASAD&type=pullrequests)
 
@@ -64,7 +125,7 @@ Selected merged pull requests.
 <details>
 <summary>More projects & implementation details</summary>
 
-**Spotter:** The route planner coordinates separate clients and services so tests can replace external dependencies. It includes request IDs, health checks, throttling, and consistent error responses. Public routing and geocoding services support experimentation; larger deployments would need their own service arrangements.
+**Spotter deployment scope:** Public routing and geocoding services support experimentation; larger deployments would need their own service arrangements.
 
 **Other public repositories**
 

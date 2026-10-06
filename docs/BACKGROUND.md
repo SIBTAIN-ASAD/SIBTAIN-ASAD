@@ -110,3 +110,21 @@ I worked on assessing whether agents completed their assigned tasks, including e
 - [C data structures and algorithms](https://github.com/SIBTAIN-ASAD/C-ADTs-DSA) — heap and binary search tree implementations.
 - [Quora-style web application](https://github.com/SIBTAIN-ASAD/quora) — questions, answers, and comments.
 - [C++ Checkers](https://github.com/SIBTAIN-ASAD/Checkers-C-) — move suggestions and file-based game data.
+
+## Technology index
+
+**Languages**: Python, JavaScript, TypeScript, C, C++, PHP, 8086 Assembly
+
+**Frontend & motion**: HTML, CSS, React, Next.js, Redux Toolkit, Tailwind CSS, Material UI, Three.js, Framer Motion, GSAP, React Router
+
+**Backend & automation**: Django, Django REST, FastAPI, Express, Celery, Selenium, REST APIs
+
+**Databases & services**: PostgreSQL, MySQL, MongoDB, Redis, Firebase
+
+**Cloud & delivery**: AWS, Azure, Google Cloud, Docker, GitHub Actions, Git
+
+**AI & machine learning**: PyTorch, TensorFlow, Reinforcement learning, LLM evaluation
+
+**Product integrations**: Microsoft Dynamics, Adobe authentication, EmailJS, SendGrid
+
+**Testing & development**: pytest, Vite, ESLint, Prettier, npm, Yarn, GitHub, GeoJSON

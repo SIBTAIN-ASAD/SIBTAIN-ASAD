@@ -10,10 +10,10 @@
 I’m **Muhammad Sibtain Asad**, a software engineer based in **Lahore, Pakistan**. My experience spans backend architecture, full-stack enterprise applications, data-collection pipelines, and LLM evaluation. I work primarily with **Python, Django, FastAPI, React, and TypeScript**.
 
 <p>
-<a href="#contributions"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-contributions-dark.svg" /><img src="./assets/nav-contributions-light.svg" alt="Open source" width="154" /></picture></a>
-<a href="#experience"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-experience-dark.svg" /><img src="./assets/nav-experience-light.svg" alt="Experience" width="154" /></picture></a>
-<a href="#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-projects-dark.svg" /><img src="./assets/nav-projects-light.svg" alt="Projects" width="154" /></picture></a>
-<a href="#skills"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-skills-dark.svg" /><img src="./assets/nav-skills-light.svg" alt="Toolkit" width="154" /></picture></a>
+<a href="#contributions"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-contributions-slim-dark.svg" /><img src="./assets/nav-contributions-slim-light.svg" alt="Open source" width="120" /></picture></a>
+<a href="#experience"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-experience-slim-dark.svg" /><img src="./assets/nav-experience-slim-light.svg" alt="Experience" width="120" /></picture></a>
+<a href="#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-projects-slim-dark.svg" /><img src="./assets/nav-projects-slim-light.svg" alt="Projects" width="120" /></picture></a>
+<a href="#skills"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-skills-slim-dark.svg" /><img src="./assets/nav-skills-slim-light.svg" alt="Toolkit" width="120" /></picture></a>
 </p>
 
 At **NavForward**, my work covers backend services and distributed scraping pipelines. Previously, I worked on **AI-agent evaluation at Turing**, **healthcare and AI workflow products at Devsinc**, and **production operations at i2c**. I also contribute fixes, typing improvements, and regression tests to open source.
@@ -22,37 +22,37 @@ At **NavForward**, my work covers backend services and distributed scraping pipe
 
 ## Open-source contributions
 
-**Merged upstream.** Select a card to read the actual pull request.
+Selected fixes and improvements **merged upstream**. Each links to the original pull request.
 
 <a href="https://github.com/apache/airflow/pull/72659">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-airflow-mobile-ui-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/contribution-airflow-mobile-ui-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-airflow-ui-dark.png" />
-  <img src="./assets/contribution-airflow-ui-light.png" width="100%" alt="Apache Airflow: merged async datetime sensor fix, pull request 72659." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-airflow-mobile-slim-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/contribution-airflow-mobile-slim-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-airflow-slim-dark.png" />
+  <img src="./assets/contribution-airflow-slim-light.png" width="100%" alt="Apache Airflow: merged async datetime sensor fix, pull request 72659." />
 </picture>
 </a>
 
 <a href="https://github.com/typeddjango/django-stubs/pull/3642">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-django-mobile-ui-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/contribution-django-mobile-ui-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-django-ui-dark.png" />
-  <img src="./assets/contribution-django-ui-light.png" width="100%" alt="django-stubs: merged mutable request typing helper, pull request 3642." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-django-mobile-slim-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/contribution-django-mobile-slim-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-django-slim-dark.png" />
+  <img src="./assets/contribution-django-slim-light.png" width="100%" alt="django-stubs: merged mutable request typing helper, pull request 3642." />
 </picture>
 </a>
 
 <a href="https://github.com/amd/gaia/pull/3263">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-gaia-mobile-ui-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/contribution-gaia-mobile-ui-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-gaia-ui-dark.png" />
-  <img src="./assets/contribution-gaia-ui-light.png" width="100%" alt="AMD Gaia: merged Telegram media feedback and regression test, pull request 3263." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-gaia-mobile-slim-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/contribution-gaia-mobile-slim-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-gaia-slim-dark.png" />
+  <img src="./assets/contribution-gaia-slim-light.png" width="100%" alt="AMD Gaia: merged Telegram media feedback and regression test, pull request 3263." />
 </picture>
 </a>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-contributions-dark.svg" /><img src="./assets/control-contributions-light.svg" width="92%" align="absmiddle" alt="Show or hide: Contribution details & all merged pull requests" /></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-contributions-slim-dark.svg" /><img src="./assets/control-contributions-slim-light.svg" width="320" align="absmiddle" alt="Show or hide: Contribution details & all merged pull requests" /></picture></summary>
 
 These changes were accepted and merged into the upstream projects. Each addresses a specific failure or developer-experience issue.
 
@@ -67,19 +67,18 @@ These changes were accepted and merged into the upstream projects. Each addresse
 </details>
 
 
-<br>
 
 <a id="experience"></a>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/career-mobile-ui-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/career-mobile-ui-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/career-ui-dark.png" />
-  <img src="./assets/career-ui-light.png" width="100%" alt="Professional experience: NavForward, Senior Software Engineer; Turing and Devsinc, Software Engineer; i2c, Associate Software Engineer." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/career-mobile-slim-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/career-mobile-slim-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/career-slim-dark.png" />
+  <img src="./assets/career-slim-light.png" width="100%" alt="Professional experience: NavForward, Senior Software Engineer; Turing and Devsinc, Software Engineer; i2c, Associate Software Engineer." />
 </picture>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-career-dark.svg" /><img src="./assets/control-career-light.svg" width="92%" align="absmiddle" alt="Show or hide: Career history, responsibilities & earlier experience" /></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-career-slim-dark.svg" /><img src="./assets/control-career-slim-light.svg" width="320" align="absmiddle" alt="Show or hide: Career history, responsibilities & earlier experience" /></picture></summary>
 
 ### NavForward · Senior Software Engineer
 <sub>June 2025 – Present · Remote</sub>
@@ -106,7 +105,7 @@ These changes were accepted and merged into the upstream projects. Each addresse
 - Worked with engineering teams to troubleshoot production issues and improve handoffs between operations and development.
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-earlier-dark.svg" /><img src="./assets/control-earlier-light.svg" width="92%" align="absmiddle" alt="Show or hide: Earlier experience & freelance work" /></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-earlier-slim-dark.svg" /><img src="./assets/control-earlier-slim-light.svg" width="320" align="absmiddle" alt="Show or hide: Earlier experience & freelance work" /></picture></summary>
 
 **Q Information Hub · Software Engineer** · June 2021 – October 2023<br>
 React and Django applications, REST APIs, JWT authentication, role-based access control, and PostgreSQL query optimization.
@@ -123,17 +122,16 @@ Web applications, dashboards, REST APIs, integrations, and ongoing maintenance f
 
 </details>
 
-<br>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/professional-work-mobile-ui-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/professional-work-mobile-ui-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/professional-work-ui-dark.png" />
-  <img src="./assets/professional-work-ui-light.png" width="100%" alt="Selected work: legal data intelligence at NavForward, healthcare workflows at Devsinc, and AI-agent evaluation at Turing." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/professional-work-mobile-slim-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/professional-work-mobile-slim-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/professional-work-slim-dark.png" />
+  <img src="./assets/professional-work-slim-light.png" width="100%" alt="Selected work: legal data intelligence at NavForward, healthcare workflows at Devsinc, and AI-agent evaluation at Turing." />
 </picture>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-work-dark.svg" /><img src="./assets/control-work-light.svg" width="92%" align="absmiddle" alt="Show or hide: Read the professional project stories" /></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-work-slim-dark.svg" /><img src="./assets/control-work-slim-light.svg" width="320" align="absmiddle" alt="Show or hide: Read the professional project stories" /></picture></summary>
 
 **Legal data intelligence · NavForward**<br>
 I worked on data-collection services where scraping, background jobs, and API delivery needed to work together. The implementation combined Django, Selenium, Celery, and Redis with retries and duplicate detection, deployed through Docker and AWS.
@@ -146,7 +144,6 @@ I worked on assessing whether agents completed their assigned tasks, including e
 
 </details>
 
-<br>
 
 <a id="projects"></a>
 
@@ -154,15 +151,15 @@ I worked on assessing whether agents completed their assigned tasks, including e
 
 <a href="https://github.com/SIBTAIN-ASAD/Spotter">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/spotter-panel-mobile-ui-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/spotter-panel-mobile-ui-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/spotter-panel-ui-dark.png" />
-  <img src="./assets/spotter-panel-ui-light.png" width="100%" alt="Spotter: route planning and fuel optimization, built with Python, Django REST, GeoJSON, Docker and automated tests." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/spotter-panel-mobile-slim-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/spotter-panel-mobile-slim-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/spotter-panel-slim-dark.png" />
+  <img src="./assets/spotter-panel-slim-light.png" width="100%" alt="Spotter: route planning and fuel optimization, built with Python, Django REST, GeoJSON, Docker and automated tests." />
 </picture>
 </a>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-spotter-dark.svg" /><img src="./assets/control-spotter-light.svg" width="92%" align="absmiddle" alt="Show or hide: Spotter — problem, implementation & engineering detail" /></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-spotter-slim-dark.svg" /><img src="./assets/control-spotter-slim-light.svg" width="320" align="absmiddle" alt="Show or hide: Spotter — problem, implementation & engineering detail" /></picture></summary>
 
 ### [Spotter](https://github.com/SIBTAIN-ASAD/Spotter)
 
@@ -180,19 +177,18 @@ I worked on assessing whether agents completed their assigned tasks, including e
 
 </details>
 
-<br>
 
 <a href="https://www.sibtainasad.com/">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/portfolio-panel-mobile-ui-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/portfolio-panel-mobile-ui-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/portfolio-panel-ui-dark.png" />
-  <img src="./assets/portfolio-panel-ui-light.png" width="100%" alt="SAM Portfolio: my experience, projects and code, presented using React, TypeScript, Three.js and motion." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/portfolio-panel-mobile-slim-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/portfolio-panel-mobile-slim-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/portfolio-panel-slim-dark.png" />
+  <img src="./assets/portfolio-panel-slim-light.png" width="100%" alt="SAM Portfolio: my experience, projects and code, presented using React, TypeScript, Three.js and motion." />
 </picture>
 </a>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-portfolio-dark.svg" /><img src="./assets/control-portfolio-light.svg" width="92%" align="absmiddle" alt="Show or hide: SAM Portfolio — implementation & source" /></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-portfolio-slim-dark.svg" /><img src="./assets/control-portfolio-slim-light.svg" width="320" align="absmiddle" alt="Show or hide: SAM Portfolio — implementation & source" /></picture></summary>
 
 ### [SAM Portfolio](https://github.com/SIBTAIN-ASAD/SAM-portfolio)
 
@@ -208,19 +204,18 @@ I worked on assessing whether agents completed their assigned tasks, including e
 
 </details>
 
-<br>
 
 <a id="skills"></a>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/skills-panel-mobile-ui-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/skills-panel-mobile-ui-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-panel-ui-dark.png" />
-  <img src="./assets/skills-panel-ui-light.png" width="100%" alt="Technical background: frontend; backend and data; infrastructure; machine learning." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/skills-panel-mobile-slim-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/skills-panel-mobile-slim-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-panel-slim-dark.png" />
+  <img src="./assets/skills-panel-slim-light.png" width="100%" alt="Technical background: frontend; backend and data; infrastructure; machine learning." />
 </picture>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-technology-dark.svg" /><img src="./assets/control-technology-light.svg" width="92%" align="absmiddle" alt="Show or hide: Full technology list" /></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-technology-slim-dark.svg" /><img src="./assets/control-technology-slim-light.svg" width="320" align="absmiddle" alt="Show or hide: Full technology list" /></picture></summary>
 
 | Area | Technologies |
 | :--- | :--- |
@@ -232,7 +227,7 @@ I worked on assessing whether agents completed their assigned tasks, including e
 </details>
 
 <details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-more-dark.svg" /><img src="./assets/control-more-light.svg" width="92%" align="absmiddle" alt="Show or hide: More projects & implementation details" /></picture></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-more-slim-dark.svg" /><img src="./assets/control-more-slim-light.svg" width="320" align="absmiddle" alt="Show or hide: More projects & implementation details" /></picture></summary>
 
 **Spotter deployment scope:** Public routing and geocoding services support experimentation; larger deployments would need their own service arrangements.
 

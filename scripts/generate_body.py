@@ -15,9 +15,11 @@ for theme in ['dark','light']:
   im=Image.new('RGB',(W*S,h*S),bg);return im,ImageDraw.Draw(im)
  def txt(d,x,y,t,n=24,color=None,b=False):d.text((x*S,y*S),t,font=f(n,b),fill=color or fg)
  def line(d,pts,color=None,w=1):d.line([(x*S,y*S) for x,y in pts],fill=color or border,width=max(1,int(w*S)))
- def box(d,x,y,w,h,fill=surface):d.rounded_rectangle((x*S,y*S,(x+w)*S,(y+h)*S),radius=10*S,fill=fill,outline=border,width=S)
+ def box(d,x,y,w,h,fill=None):
+  fill=fill or surface
+  d.rounded_rectangle((x*S,y*S,(x+w)*S,(y+h)*S),radius=10*S,fill=fill,outline=border,width=S)
  def label(d,n,t):txt(d,24,22,n,18,accent);txt(d,74,20,t,22,muted);line(d,[(24,63),(936,63)])
- def save(im,name):im.save(OUT/f'{name}-{theme}.png',optimize=True)
+ def save(im,name):im.save(OUT/f'{name}-ui-{theme}.png',optimize=True)
  im,d=make(790);label(d,'01','PROFESSIONAL EXPERIENCE')
  roles=[('NavForward','Senior Software Engineer','JUN 2025 — PRESENT','Backend architecture & distributed data pipelines'),('Turing','Software Engineer','JUN — DEC 2025','LLM training, agent evaluation & scoring pipelines'),('Devsinc','Software Engineer','NOV 2023 — JUN 2025','Enterprise applications & frontend architecture'),('i2c','Associate Software Engineer','SEP — NOV 2023','Production operations, releases & monitoring')]
  line(d,[(40,107),(40,658)],border)
@@ -70,6 +72,7 @@ print('Generated themed career, project, contribution and skills panels at 2x re
 # Mobile layouts use fewer columns and larger relative type.
 for theme in ['dark','light']:
  bg='#0d1117' if theme=='dark' else '#ffffff';fg='#e6edf3' if theme=='dark' else '#1f2328';muted='#98a5b3' if theme=='dark' else '#59636e';border='#2a3642' if theme=='dark' else '#d1d9e0';accent='#7fcce0' if theme=='dark' else '#096f8a'
+ surface='#111c29' if theme=='dark' else '#f6f8fa'
  def mobile(h):
   im=Image.new('RGB',(600*S,h*S),bg);return im,ImageDraw.Draw(im)
  def wrap(d,s,x,y,width=536,n=22):
@@ -82,22 +85,22 @@ for theme in ['dark','light']:
   for i,t in enumerate(rows):txt(d,x,y+i*(n+9),t,n,muted)
  im,d=mobile(925);txt(d,18,15,'01 / PROFESSIONAL EXPERIENCE',20,accent)
  for i,(company,role,date,desc) in enumerate(roles):
-  y=65+i*211;line(d,[(22,y+17),(22,y+213)],border)
+  y=65+i*211;box(d,38,y-8,555,198);line(d,[(22,y+17),(22,y+213)],border)
   d.ellipse((17*S,(y+12)*S,27*S,(y+22)*S),fill=accent)
   txt(d,49,y,company,34,b=True);txt(d,49,y+45,role,23)
   txt(d,49,y+81,date,18,accent);wrap(d,desc,49,y+118,510)
  save(im,'career-mobile')
  for name,title,sub,desc,tech in [('spotter','Spotter','Route planning & fuel optimization','US routes and fuel recommendations. Testable services and injectable clients.','Python / Django REST / Docker'),('portfolio','SAM Portfolio','My experience, projects & code','React, 3D visuals and motion. TypeScript components and structured content.','TypeScript / React / Three.js')]:
-  im,d=mobile(330);txt(d,19,17,'SELECTED PROJECT',18,accent);txt(d,18,60,title,44,b=True);txt(d,20,119,sub,23)
+  im,d=mobile(330);box(d,1,1,598,328);txt(d,19,17,'SELECTED PROJECT',18,accent);txt(d,18,60,title,44,b=True);txt(d,20,119,sub,23)
   wrap(d,desc,20,166);line(d,[(20,268),(580,268)]);txt(d,20,293,tech,20,accent);save(im,name+'-panel-mobile')
  im,d=mobile(470);txt(d,20,14,'02 / SELECTED PROFESSIONAL WORK',19,accent)
  for i,(name,org,scope) in enumerate([('Legal data intelligence','NAVFORWARD','Django / Selenium / Celery / Redis'),('Healthcare referral workflows','DEVSINC','React / TypeScript / integrations'),('AI-agent evaluation','TURING','Datasets / scoring / prompt refinement')]):
-  y=70+i*133;txt(d,20,y,org,17,accent);txt(d,20,y+31,name,28,b=True);txt(d,20,y+73,scope,21,muted);line(d,[(20,y+114),(580,y+114)])
+  y=70+i*133;box(d,5,y-7,590,120);txt(d,20,y,org,17,accent);txt(d,20,y+31,name,28,b=True);txt(d,20,y+73,scope,21,muted);line(d,[(20,y+114),(580,y+114)])
  save(im,'professional-work-mobile')
  for slug,org,title,desc,num in [('airflow','APACHE AIRFLOW','Async datetime sensor fix','Resolved DAG parsing failures for templated targets.','#72659'),('django','DJANGO-STUBS','Mutable request typing','Preserved request subclass inference in typed tests.','#3642'),('gaia','AMD GAIA','Telegram media feedback','Made unsupported uploads explicit; added a regression test.','#3263')]:
-  im,d=mobile(214);txt(d,20,18,org,19,accent);txt(d,420,21,'MERGED',16,muted);txt(d,20,61,title,29,b=True);wrap(d,desc,20,113);save(im,'contribution-'+slug+'-mobile')
+  im,d=mobile(214);box(d,1,1,598,212);txt(d,20,18,org,19,accent);txt(d,420,21,'MERGED',16,muted);txt(d,20,61,title,29,b=True);wrap(d,desc,20,113);save(im,'contribution-'+slug+'-mobile')
  im,d=mobile(760);txt(d,20,15,'05 / TECHNICAL BACKGROUND',20,accent)
  for i,(title,lines) in enumerate(groups):
-  y=68+i*170;txt(d,20,y,title,30,b=True);line(d,[(20,y+44),(570,y+44)])
+  y=68+i*170;box(d,5,y-7,590,160);txt(d,20,y,title,30,b=True);line(d,[(20,y+44),(570,y+44)])
   for j,t in enumerate(lines):txt(d,20,y+60+j*29,t,23,muted)
  save(im,'skills-panel-mobile')

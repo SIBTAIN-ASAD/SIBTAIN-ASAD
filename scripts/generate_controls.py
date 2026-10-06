@@ -1,0 +1,13 @@
+"""Generate native-details control artwork and navigation pills (no JavaScript)."""
+from pathlib import Path
+from html import escape
+OUT=Path(__file__).resolve().parents[1]/'assets'
+controls=[('career','Career details','Roles, responsibilities & earlier work'),('earlier','Earlier experience','Freelance work & previous roles'),('work','Professional work','Read the project stories'),('spotter','Inside Spotter','Problem, approach & implementation'),('portfolio','Inside my portfolio','Implementation & source code'),('contributions','Contribution details','Changes, context & merged pull requests'),('technology','Technology details','View the complete toolkit'),('more','More repositories','Other projects & implementation notes')]
+for theme in ['dark','light']:
+ dark=theme=='dark';bg='#131d29' if dark else '#f6f8fa';border='#34485d' if dark else '#ccd8e4';fg='#e6edf3' if dark else '#1f2328';muted='#9baec1' if dark else '#58677a';accent='#7fcce0' if dark else '#096f8a'
+ for slug,title,sub in controls:
+  svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="720" height="90" viewBox="0 0 720 90" role="img" aria-label="Show or hide {escape(title.lower())}"><defs><linearGradient id="bg"><stop stop-color="{bg}"/><stop offset="1" stop-color="{'#0e1620' if dark else '#ffffff'}"/></linearGradient></defs><rect x=".75" y=".75" width="718.5" height="88.5" rx="12" fill="url(#bg)" stroke="{border}" stroke-width="1.5"/><path d="M1 24V66" stroke="{accent}" stroke-width="2"/><text x="24" y="36" fill="{fg}" font-family="Arial,sans-serif" font-weight="600" font-size="24">{escape(title)}</text><text x="24" y="65" fill="{muted}" font-family="Arial,sans-serif" font-size="18">{escape(sub)}</text><text x="546" y="49" fill="{muted}" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">SHOW / HIDE</text><rect x="661" y="25" width="36" height="36" rx="8" fill="none" stroke="{border}"/><path d="M674 39L679 34L684 39M674 48L679 53L684 48" stroke="{accent}" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'''
+  (OUT/f'control-{slug}-{theme}.svg').write_text(svg)
+ for slug,label in [('contributions','Open source'),('experience','Experience'),('projects','Projects'),('skills','Toolkit')]:
+  svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="154" height="40" role="img" aria-label="{label}"><rect x=".5" y=".5" width="153" height="39" rx="9" fill="{bg}" stroke="{border}"/><text x="16" y="25" fill="{fg}" font-size="14" font-family="Arial,sans-serif">{label}</text><path d="M129 17L133 21L129 25" fill="none" stroke="{accent}" stroke-width="1.2"/></svg>'''
+  (OUT/f'nav-{slug}-{theme}.svg').write_text(svg)

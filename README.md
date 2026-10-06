@@ -9,17 +9,77 @@
 
 I’m **Muhammad Sibtain Asad**, a software engineer based in **Lahore, Pakistan**. My experience spans backend architecture, full-stack enterprise applications, data-collection pipelines, and LLM evaluation. I work primarily with **Python, Django, FastAPI, React, and TypeScript**.
 
+<p>
+<a href="#contributions"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-contributions-dark.svg" /><img src="./assets/nav-contributions-light.svg" alt="Open source" width="154" /></picture></a>
+<a href="#experience"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-experience-dark.svg" /><img src="./assets/nav-experience-light.svg" alt="Experience" width="154" /></picture></a>
+<a href="#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-projects-dark.svg" /><img src="./assets/nav-projects-light.svg" alt="Projects" width="154" /></picture></a>
+<a href="#skills"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/nav-skills-dark.svg" /><img src="./assets/nav-skills-light.svg" alt="Toolkit" width="154" /></picture></a>
+</p>
+
 At **NavForward**, my work covers backend services and distributed scraping pipelines. Previously, I worked on **AI-agent evaluation at Turing**, **healthcare and AI workflow products at Devsinc**, and **production operations at i2c**. I also contribute fixes, typing improvements, and regression tests to open source.
 
+<a id="contributions"></a>
+
+## Open-source contributions
+
+**Merged upstream.** Select a card to read the actual pull request.
+
+<a href="https://github.com/apache/airflow/pull/72659">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/career-mobile-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/career-mobile-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/career-dark.png" />
-  <img src="./assets/career-light.png" width="100%" alt="Professional experience: NavForward, Senior Software Engineer; Turing and Devsinc, Software Engineer; i2c, Associate Software Engineer." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-airflow-mobile-ui-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/contribution-airflow-mobile-ui-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-airflow-ui-dark.png" />
+  <img src="./assets/contribution-airflow-ui-light.png" width="100%" alt="Apache Airflow: merged async datetime sensor fix, pull request 72659." />
+</picture>
+</a>
+
+<a href="https://github.com/typeddjango/django-stubs/pull/3642">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-django-mobile-ui-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/contribution-django-mobile-ui-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-django-ui-dark.png" />
+  <img src="./assets/contribution-django-ui-light.png" width="100%" alt="django-stubs: merged mutable request typing helper, pull request 3642." />
+</picture>
+</a>
+
+<a href="https://github.com/amd/gaia/pull/3263">
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-gaia-mobile-ui-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/contribution-gaia-mobile-ui-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-gaia-ui-dark.png" />
+  <img src="./assets/contribution-gaia-ui-light.png" width="100%" alt="AMD Gaia: merged Telegram media feedback and regression test, pull request 3263." />
+</picture>
+</a>
+
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-contributions-dark.svg" /><img src="./assets/control-contributions-light.svg" width="92%" align="absmiddle" alt="Show or hide: Contribution details & all merged pull requests" /></picture></summary>
+
+These changes were accepted and merged into the upstream projects. Each addresses a specific failure or developer-experience issue.
+
+| Project | Contribution & significance |
+| :--- | :--- |
+| **Apache Airflow** | [Async datetime sensor fix](https://github.com/apache/airflow/pull/72659) — prevented raw Jinja targets from being parsed during DAG construction, preserving the normal rendering path. |
+| **django-stubs** | [Mutable request typing](https://github.com/typeddjango/django-stubs/pull/3642) — added a helper for tests and request factories while preserving inference for custom request subclasses. |
+| **AMD Gaia** | [Telegram media feedback](https://github.com/amd/gaia/pull/3263) — replaced silent handling of unsupported uploads with explicit feedback and a video-path regression test. |
+
+[All merged contributions →](https://github.com/search?q=is%3Apr+is%3Amerged+author%3ASIBTAIN-ASAD+-user%3ASIBTAIN-ASAD&type=pullrequests)
+
+</details>
+
+
+<br>
+
+<a id="experience"></a>
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/career-mobile-ui-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/career-mobile-ui-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/career-ui-dark.png" />
+  <img src="./assets/career-ui-light.png" width="100%" alt="Professional experience: NavForward, Senior Software Engineer; Turing and Devsinc, Software Engineer; i2c, Associate Software Engineer." />
 </picture>
 
 <details>
-<summary><strong>Career history, responsibilities & earlier experience</strong></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-career-dark.svg" /><img src="./assets/control-career-light.svg" width="92%" align="absmiddle" alt="Show or hide: Career history, responsibilities & earlier experience" /></picture></summary>
 
 ### NavForward · Senior Software Engineer
 <sub>June 2025 – Present · Remote</sub>
@@ -46,7 +106,7 @@ At **NavForward**, my work covers backend services and distributed scraping pipe
 - Worked with engineering teams to troubleshoot production issues and improve handoffs between operations and development.
 
 <details>
-<summary>Earlier experience & freelance work</summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-earlier-dark.svg" /><img src="./assets/control-earlier-light.svg" width="92%" align="absmiddle" alt="Show or hide: Earlier experience & freelance work" /></picture></summary>
 
 **Q Information Hub · Software Engineer** · June 2021 – October 2023<br>
 React and Django applications, REST APIs, JWT authentication, role-based access control, and PostgreSQL query optimization.
@@ -66,14 +126,14 @@ Web applications, dashboards, REST APIs, integrations, and ongoing maintenance f
 <br>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/professional-work-mobile-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/professional-work-mobile-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/professional-work-dark.png" />
-  <img src="./assets/professional-work-light.png" width="100%" alt="Selected work: legal data intelligence at NavForward, healthcare workflows at Devsinc, and AI-agent evaluation at Turing." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/professional-work-mobile-ui-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/professional-work-mobile-ui-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/professional-work-ui-dark.png" />
+  <img src="./assets/professional-work-ui-light.png" width="100%" alt="Selected work: legal data intelligence at NavForward, healthcare workflows at Devsinc, and AI-agent evaluation at Turing." />
 </picture>
 
 <details>
-<summary><strong>Read the professional project stories</strong></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-work-dark.svg" /><img src="./assets/control-work-light.svg" width="92%" align="absmiddle" alt="Show or hide: Read the professional project stories" /></picture></summary>
 
 **Legal data intelligence · NavForward**<br>
 I worked on data-collection services where scraping, background jobs, and API delivery needed to work together. The implementation combined Django, Selenium, Celery, and Redis with retries and duplicate detection, deployed through Docker and AWS.
@@ -88,19 +148,21 @@ I worked on assessing whether agents completed their assigned tasks, including e
 
 <br>
 
+<a id="projects"></a>
+
 ## Selected projects
 
 <a href="https://github.com/SIBTAIN-ASAD/Spotter">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/spotter-panel-mobile-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/spotter-panel-mobile-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/spotter-panel-dark.png" />
-  <img src="./assets/spotter-panel-light.png" width="100%" alt="Spotter: route planning and fuel optimization, built with Python, Django REST, GeoJSON, Docker and automated tests." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/spotter-panel-mobile-ui-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/spotter-panel-mobile-ui-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/spotter-panel-ui-dark.png" />
+  <img src="./assets/spotter-panel-ui-light.png" width="100%" alt="Spotter: route planning and fuel optimization, built with Python, Django REST, GeoJSON, Docker and automated tests." />
 </picture>
 </a>
 
 <details>
-<summary><strong>Spotter — problem, implementation & engineering detail</strong></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-spotter-dark.svg" /><img src="./assets/control-spotter-light.svg" width="92%" align="absmiddle" alt="Show or hide: Spotter — problem, implementation & engineering detail" /></picture></summary>
 
 ### [Spotter](https://github.com/SIBTAIN-ASAD/Spotter)
 
@@ -122,15 +184,15 @@ I worked on assessing whether agents completed their assigned tasks, including e
 
 <a href="https://www.sibtainasad.com/">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/portfolio-panel-mobile-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/portfolio-panel-mobile-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/portfolio-panel-dark.png" />
-  <img src="./assets/portfolio-panel-light.png" width="100%" alt="SAM Portfolio: my experience, projects and code, presented using React, TypeScript, Three.js and motion." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/portfolio-panel-mobile-ui-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/portfolio-panel-mobile-ui-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/portfolio-panel-ui-dark.png" />
+  <img src="./assets/portfolio-panel-ui-light.png" width="100%" alt="SAM Portfolio: my experience, projects and code, presented using React, TypeScript, Three.js and motion." />
 </picture>
 </a>
 
 <details>
-<summary><strong>SAM Portfolio — implementation & source</strong></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-portfolio-dark.svg" /><img src="./assets/control-portfolio-light.svg" width="92%" align="absmiddle" alt="Show or hide: SAM Portfolio — implementation & source" /></picture></summary>
 
 ### [SAM Portfolio](https://github.com/SIBTAIN-ASAD/SAM-portfolio)
 
@@ -148,61 +210,17 @@ I worked on assessing whether agents completed their assigned tasks, including e
 
 <br>
 
-## Open-source contributions
-
-<a href="https://github.com/apache/airflow/pull/72659">
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-airflow-mobile-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/contribution-airflow-mobile-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-airflow-dark.png" />
-  <img src="./assets/contribution-airflow-light.png" width="100%" alt="Apache Airflow: merged async datetime sensor fix, pull request 72659." />
-</picture>
-</a>
-
-<a href="https://github.com/typeddjango/django-stubs/pull/3642">
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-django-mobile-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/contribution-django-mobile-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-django-dark.png" />
-  <img src="./assets/contribution-django-light.png" width="100%" alt="django-stubs: merged mutable request typing helper, pull request 3642." />
-</picture>
-</a>
-
-<a href="https://github.com/amd/gaia/pull/3263">
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/contribution-gaia-mobile-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/contribution-gaia-mobile-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-gaia-dark.png" />
-  <img src="./assets/contribution-gaia-light.png" width="100%" alt="AMD Gaia: merged Telegram media feedback and regression test, pull request 3263." />
-</picture>
-</a>
-
-<details>
-<summary><strong>Contribution details & all merged pull requests</strong></summary>
-
-These changes were accepted and merged into the upstream projects. Each addresses a specific failure or developer-experience issue.
-
-| Project | Contribution & significance |
-| :--- | :--- |
-| **Apache Airflow** | [Async datetime sensor fix](https://github.com/apache/airflow/pull/72659) — prevented raw Jinja targets from being parsed during DAG construction, preserving the normal rendering path. |
-| **django-stubs** | [Mutable request typing](https://github.com/typeddjango/django-stubs/pull/3642) — added a helper for tests and request factories while preserving inference for custom request subclasses. |
-| **AMD Gaia** | [Telegram media feedback](https://github.com/amd/gaia/pull/3263) — replaced silent handling of unsupported uploads with explicit feedback and a video-path regression test. |
-
-[All merged contributions →](https://github.com/search?q=is%3Apr+is%3Amerged+author%3ASIBTAIN-ASAD+-user%3ASIBTAIN-ASAD&type=pullrequests)
-
-</details>
-
-<br>
+<a id="skills"></a>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/skills-panel-mobile-dark.png" />
-  <source media="(max-width: 600px)" srcset="./assets/skills-panel-mobile-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-panel-dark.png" />
-  <img src="./assets/skills-panel-light.png" width="100%" alt="Technical background: frontend; backend and data; infrastructure; machine learning." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/skills-panel-mobile-ui-dark.png" />
+  <source media="(max-width: 600px)" srcset="./assets/skills-panel-mobile-ui-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-panel-ui-dark.png" />
+  <img src="./assets/skills-panel-ui-light.png" width="100%" alt="Technical background: frontend; backend and data; infrastructure; machine learning." />
 </picture>
 
 <details>
-<summary><strong>Full technology list</strong></summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-technology-dark.svg" /><img src="./assets/control-technology-light.svg" width="92%" align="absmiddle" alt="Show or hide: Full technology list" /></picture></summary>
 
 | Area | Technologies |
 | :--- | :--- |
@@ -214,7 +232,7 @@ These changes were accepted and merged into the upstream projects. Each addresse
 </details>
 
 <details>
-<summary>More projects & implementation details</summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/control-more-dark.svg" /><img src="./assets/control-more-light.svg" width="92%" align="absmiddle" alt="Show or hide: More projects & implementation details" /></picture></summary>
 
 **Spotter deployment scope:** Public routing and geocoding services support experimentation; larger deployments would need their own service arrangements.
 

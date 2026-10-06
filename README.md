@@ -60,98 +60,80 @@ My experience and projects in a React interface with 3D visuals and motion. [Sou
 
 ## Technologies & tools
 
-Tools from my professional experience and public projects, grouped by purpose.
-
-### Languages
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-python-dark.svg" /><img src="./assets/tool-logo-python-light.svg" alt="Python" width="83" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-javascript-dark.svg" /><img src="./assets/tool-logo-javascript-light.svg" alt="JavaScript" width="110" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-typescript-dark.svg" /><img src="./assets/tool-logo-typescript-light.svg" alt="TypeScript" width="110" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-c-dark.svg" /><img src="./assets/tool-logo-c-light.svg" alt="C" width="62" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-cpp-dark.svg" /><img src="./assets/tool-logo-cpp-light.svg" alt="C++" width="63" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-php-dark.svg" /><img src="./assets/tool-logo-php-light.svg" alt="PHP" width="63" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-8086-assembly-dark.svg" /><img src="./assets/tool-logo-8086-assembly-light.svg" alt="8086 Assembly" width="130" /></picture>
+<p><strong>Languages</strong><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-python-dark.svg" /><img src="./assets/tool-compact-python-light.svg" alt="Python" width="67" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-javascript-dark.svg" /><img src="./assets/tool-compact-javascript-light.svg" alt="JavaScript" width="92" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-typescript-dark.svg" /><img src="./assets/tool-compact-typescript-light.svg" alt="TypeScript" width="92" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-c-dark.svg" /><img src="./assets/tool-compact-c-light.svg" alt="C" width="43" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-cpp-dark.svg" /><img src="./assets/tool-compact-cpp-light.svg" alt="C++" width="48" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-php-dark.svg" /><img src="./assets/tool-compact-php-light.svg" alt="PHP" width="48" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-8086-assembly-dark.svg" /><img src="./assets/tool-compact-8086-assembly-light.svg" alt="8086 Assembly" width="111" /></picture>
 </p>
 
-### Frontend & motion
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-html-dark.svg" /><img src="./assets/tool-logo-html-light.svg" alt="HTML" width="70" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-css-dark.svg" /><img src="./assets/tool-logo-css-light.svg" alt="CSS" width="63" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-react-dark.svg" /><img src="./assets/tool-logo-react-light.svg" alt="React" width="76" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-next.js-dark.svg" /><img src="./assets/tool-logo-next.js-light.svg" alt="Next.js" width="90" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-redux-toolkit-dark.svg" /><img src="./assets/tool-logo-redux-toolkit-light.svg" alt="Redux Toolkit" width="130" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-tailwind-css-dark.svg" /><img src="./assets/tool-logo-tailwind-css-light.svg" alt="Tailwind CSS" width="123" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-material-ui-dark.svg" /><img src="./assets/tool-logo-material-ui-light.svg" alt="Material UI" width="117" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-three.js-dark.svg" /><img src="./assets/tool-logo-three.js-light.svg" alt="Three.js" width="97" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-framer-motion-dark.svg" /><img src="./assets/tool-logo-framer-motion-light.svg" alt="Framer Motion" width="130" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-gsap-dark.svg" /><img src="./assets/tool-logo-gsap-light.svg" alt="GSAP" width="70" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-react-router-dark.svg" /><img src="./assets/tool-logo-react-router-light.svg" alt="React Router" width="123" /></picture>
+<p><strong>Frontend & motion</strong><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-html-dark.svg" /><img src="./assets/tool-compact-html-light.svg" alt="HTML" width="54" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-css-dark.svg" /><img src="./assets/tool-compact-css-light.svg" alt="CSS" width="48" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-react-dark.svg" /><img src="./assets/tool-compact-react-light.svg" alt="React" width="60" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-next.js-dark.svg" /><img src="./assets/tool-compact-next.js-light.svg" alt="Next.js" width="73" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-redux-toolkit-dark.svg" /><img src="./assets/tool-compact-redux-toolkit-light.svg" alt="Redux Toolkit" width="111" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-tailwind-css-dark.svg" /><img src="./assets/tool-compact-tailwind-css-light.svg" alt="Tailwind CSS" width="105" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-material-ui-dark.svg" /><img src="./assets/tool-compact-material-ui-light.svg" alt="Material UI" width="98" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-three.js-dark.svg" /><img src="./assets/tool-compact-three.js-light.svg" alt="Three.js" width="79" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-framer-motion-dark.svg" /><img src="./assets/tool-compact-framer-motion-light.svg" alt="Framer Motion" width="111" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-gsap-dark.svg" /><img src="./assets/tool-compact-gsap-light.svg" alt="GSAP" width="54" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-react-router-dark.svg" /><img src="./assets/tool-compact-react-router-light.svg" alt="React Router" width="105" /></picture>
 </p>
 
-### Backend & automation
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-django-dark.svg" /><img src="./assets/tool-logo-django-light.svg" alt="Django" width="83" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-django-rest-dark.svg" /><img src="./assets/tool-logo-django-rest-light.svg" alt="Django REST" width="117" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-fastapi-dark.svg" /><img src="./assets/tool-logo-fastapi-light.svg" alt="FastAPI" width="90" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-express-dark.svg" /><img src="./assets/tool-logo-express-light.svg" alt="Express" width="90" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-celery-dark.svg" /><img src="./assets/tool-logo-celery-light.svg" alt="Celery" width="83" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-selenium-dark.svg" /><img src="./assets/tool-logo-selenium-light.svg" alt="Selenium" width="97" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-rest-apis-dark.svg" /><img src="./assets/tool-logo-rest-apis-light.svg" alt="REST APIs" width="103" /></picture>
+<p><strong>Backend & automation</strong><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-django-dark.svg" /><img src="./assets/tool-compact-django-light.svg" alt="Django" width="67" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-django-rest-dark.svg" /><img src="./assets/tool-compact-django-rest-light.svg" alt="Django REST" width="98" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-fastapi-dark.svg" /><img src="./assets/tool-compact-fastapi-light.svg" alt="FastAPI" width="73" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-express-dark.svg" /><img src="./assets/tool-compact-express-light.svg" alt="Express" width="73" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-celery-dark.svg" /><img src="./assets/tool-compact-celery-light.svg" alt="Celery" width="67" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-selenium-dark.svg" /><img src="./assets/tool-compact-selenium-light.svg" alt="Selenium" width="79" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-rest-apis-dark.svg" /><img src="./assets/tool-compact-rest-apis-light.svg" alt="REST APIs" width="86" /></picture>
 </p>
 
-### Databases & services
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-postgresql-dark.svg" /><img src="./assets/tool-logo-postgresql-light.svg" alt="PostgreSQL" width="110" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-mysql-dark.svg" /><img src="./assets/tool-logo-mysql-light.svg" alt="MySQL" width="76" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-mongodb-dark.svg" /><img src="./assets/tool-logo-mongodb-light.svg" alt="MongoDB" width="90" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-redis-dark.svg" /><img src="./assets/tool-logo-redis-light.svg" alt="Redis" width="76" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-firebase-dark.svg" /><img src="./assets/tool-logo-firebase-light.svg" alt="Firebase" width="97" /></picture>
+<p><strong>Databases & services</strong><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-postgresql-dark.svg" /><img src="./assets/tool-compact-postgresql-light.svg" alt="PostgreSQL" width="92" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-mysql-dark.svg" /><img src="./assets/tool-compact-mysql-light.svg" alt="MySQL" width="60" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-mongodb-dark.svg" /><img src="./assets/tool-compact-mongodb-light.svg" alt="MongoDB" width="73" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-redis-dark.svg" /><img src="./assets/tool-compact-redis-light.svg" alt="Redis" width="60" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-firebase-dark.svg" /><img src="./assets/tool-compact-firebase-light.svg" alt="Firebase" width="79" /></picture>
 </p>
 
-### Cloud & delivery
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-aws-dark.svg" /><img src="./assets/tool-logo-aws-light.svg" alt="AWS" width="63" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-azure-dark.svg" /><img src="./assets/tool-logo-azure-light.svg" alt="Azure" width="76" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-google-cloud-dark.svg" /><img src="./assets/tool-logo-google-cloud-light.svg" alt="Google Cloud" width="123" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-docker-dark.svg" /><img src="./assets/tool-logo-docker-light.svg" alt="Docker" width="83" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-github-actions-dark.svg" /><img src="./assets/tool-logo-github-actions-light.svg" alt="GitHub Actions" width="137" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-git-dark.svg" /><img src="./assets/tool-logo-git-light.svg" alt="Git" width="63" /></picture>
+<p><strong>Cloud & delivery</strong><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-aws-dark.svg" /><img src="./assets/tool-compact-aws-light.svg" alt="AWS" width="48" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-azure-dark.svg" /><img src="./assets/tool-compact-azure-light.svg" alt="Azure" width="60" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-google-cloud-dark.svg" /><img src="./assets/tool-compact-google-cloud-light.svg" alt="Google Cloud" width="105" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-docker-dark.svg" /><img src="./assets/tool-compact-docker-light.svg" alt="Docker" width="67" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-github-actions-dark.svg" /><img src="./assets/tool-compact-github-actions-light.svg" alt="GitHub Actions" width="117" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-git-dark.svg" /><img src="./assets/tool-compact-git-light.svg" alt="Git" width="48" /></picture>
 </p>
 
-### AI & machine learning
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-pytorch-dark.svg" /><img src="./assets/tool-logo-pytorch-light.svg" alt="PyTorch" width="90" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-tensorflow-dark.svg" /><img src="./assets/tool-logo-tensorflow-light.svg" alt="TensorFlow" width="110" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-reinforcement-learning-dark.svg" /><img src="./assets/tool-logo-reinforcement-learning-light.svg" alt="Reinforcement learning" width="190" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-llm-evaluation-dark.svg" /><img src="./assets/tool-logo-llm-evaluation-light.svg" alt="LLM evaluation" width="137" /></picture>
+<p><strong>AI & machine learning</strong><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-pytorch-dark.svg" /><img src="./assets/tool-compact-pytorch-light.svg" alt="PyTorch" width="73" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-tensorflow-dark.svg" /><img src="./assets/tool-compact-tensorflow-light.svg" alt="TensorFlow" width="92" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-reinforcement-learning-dark.svg" /><img src="./assets/tool-compact-reinforcement-learning-light.svg" alt="Reinforcement learning" width="168" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-llm-evaluation-dark.svg" /><img src="./assets/tool-compact-llm-evaluation-light.svg" alt="LLM evaluation" width="117" /></picture>
 </p>
 
-### Product integrations
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-microsoft-dynamics-dark.svg" /><img src="./assets/tool-logo-microsoft-dynamics-light.svg" alt="Microsoft Dynamics" width="164" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-adobe-authentication-dark.svg" /><img src="./assets/tool-logo-adobe-authentication-light.svg" alt="Adobe authentication" width="177" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-emailjs-dark.svg" /><img src="./assets/tool-logo-emailjs-light.svg" alt="EmailJS" width="90" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-sendgrid-dark.svg" /><img src="./assets/tool-logo-sendgrid-light.svg" alt="SendGrid" width="97" /></picture>
+<p><strong>Product integrations</strong><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-microsoft-dynamics-dark.svg" /><img src="./assets/tool-compact-microsoft-dynamics-light.svg" alt="Microsoft Dynamics" width="142" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-adobe-authentication-dark.svg" /><img src="./assets/tool-compact-adobe-authentication-light.svg" alt="Adobe authentication" width="155" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-emailjs-dark.svg" /><img src="./assets/tool-compact-emailjs-light.svg" alt="EmailJS" width="73" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-sendgrid-dark.svg" /><img src="./assets/tool-compact-sendgrid-light.svg" alt="SendGrid" width="79" /></picture>
 </p>
 
-### Testing & development
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-pytest-dark.svg" /><img src="./assets/tool-logo-pytest-light.svg" alt="pytest" width="83" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-vite-dark.svg" /><img src="./assets/tool-logo-vite-light.svg" alt="Vite" width="70" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-eslint-dark.svg" /><img src="./assets/tool-logo-eslint-light.svg" alt="ESLint" width="83" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-prettier-dark.svg" /><img src="./assets/tool-logo-prettier-light.svg" alt="Prettier" width="97" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-npm-dark.svg" /><img src="./assets/tool-logo-npm-light.svg" alt="npm" width="63" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-yarn-dark.svg" /><img src="./assets/tool-logo-yarn-light.svg" alt="Yarn" width="70" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-github-dark.svg" /><img src="./assets/tool-logo-github-light.svg" alt="GitHub" width="83" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-logo-geojson-dark.svg" /><img src="./assets/tool-logo-geojson-light.svg" alt="GeoJSON" width="90" /></picture>
+<p><strong>Testing & development</strong><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-pytest-dark.svg" /><img src="./assets/tool-compact-pytest-light.svg" alt="pytest" width="67" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-vite-dark.svg" /><img src="./assets/tool-compact-vite-light.svg" alt="Vite" width="54" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-eslint-dark.svg" /><img src="./assets/tool-compact-eslint-light.svg" alt="ESLint" width="67" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-prettier-dark.svg" /><img src="./assets/tool-compact-prettier-light.svg" alt="Prettier" width="79" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-npm-dark.svg" /><img src="./assets/tool-compact-npm-light.svg" alt="npm" width="48" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-yarn-dark.svg" /><img src="./assets/tool-compact-yarn-light.svg" alt="Yarn" width="54" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-github-dark.svg" /><img src="./assets/tool-compact-github-light.svg" alt="GitHub" width="67" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-compact-geojson-dark.svg" /><img src="./assets/tool-compact-geojson-light.svg" alt="GeoJSON" width="73" /></picture>
 </p>
 
 [More projects & engineering notes](./docs/BACKGROUND.md#other-public-repositories) · [Portfolio](https://www.sibtainasad.com/) · [LinkedIn](https://www.linkedin.com/in/sibtain-asad/)

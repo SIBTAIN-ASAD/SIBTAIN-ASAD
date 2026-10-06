@@ -45,8 +45,98 @@ My experience and projects in a React interface with 3D visuals and motion. [Sou
 
 <a href="./docs/BACKGROUND.md"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-background-dark.svg" /><img src="./assets/link-background-light.svg" alt="Full background ↗" width="156" /></picture></a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack-dark.svg" /><img src="./assets/section-stack-light.svg" alt="04 / CORE STACK" width="360" /></picture>
+## GitHub activity
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-python-dark.svg" /><img src="./assets/stack-python-light.svg" alt="Python" width="79" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-django-dark.svg" /><img src="./assets/stack-django-light.svg" alt="Django" width="80" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-fastapi-dark.svg" /><img src="./assets/stack-fastapi-light.svg" alt="FastAPI" width="85" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-react-dark.svg" /><img src="./assets/stack-react-light.svg" alt="React" width="75" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-typescript-dark.svg" /><img src="./assets/stack-typescript-light.svg" alt="TypeScript" width="105" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-postgres-dark.svg" /><img src="./assets/stack-postgres-light.svg" alt="PostgreSQL" width="109" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-docker-dark.svg" /><img src="./assets/stack-docker-light.svg" alt="Docker" width="82" /></picture> </p>
+<picture>
+<source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/activity-mobile-dark.svg" />
+<source media="(max-width: 600px)" srcset="./assets/activity-mobile-light.svg" />
+<source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" />
+<img src="./assets/activity-light.svg" width="720" alt="GitHub contributions, current streak and longest streak in the past year. Updated daily from GitHub." />
+</picture>
+
+<sub>Daily refresh · streaks use Pakistan calendar days (PKT) · [View contribution history](https://github.com/SIBTAIN-ASAD?tab=overview)</sub>
+
+## Technologies & tools
+
+Tools from my professional experience and public projects, grouped by purpose.
+
+### Languages
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-python-dark.svg" /><img src="./assets/tool-python-light.svg" alt="Python" width="70" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-javascript-dark.svg" /><img src="./assets/tool-javascript-light.svg" alt="JavaScript" width="97" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-typescript-dark.svg" /><img src="./assets/tool-typescript-light.svg" alt="TypeScript" width="97" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-c-dark.svg" /><img src="./assets/tool-c-light.svg" alt="C" width="62" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-cpp-dark.svg" /><img src="./assets/tool-cpp-light.svg" alt="C++" width="62" /></picture> 
+</p>
+
+### Frontend & motion
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-react-dark.svg" /><img src="./assets/tool-react-light.svg" alt="React" width="64" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-next.js-dark.svg" /><img src="./assets/tool-next.js-light.svg" alt="Next.js" width="77" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-redux-toolkit-dark.svg" /><img src="./assets/tool-redux-toolkit-light.svg" alt="Redux Toolkit" width="117" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-tailwind-css-dark.svg" /><img src="./assets/tool-tailwind-css-light.svg" alt="Tailwind CSS" width="110" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-material-ui-dark.svg" /><img src="./assets/tool-material-ui-light.svg" alt="Material UI" width="104" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-three.js-dark.svg" /><img src="./assets/tool-three.js-light.svg" alt="Three.js" width="84" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-framer-motion-dark.svg" /><img src="./assets/tool-framer-motion-light.svg" alt="Framer Motion" width="117" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-gsap-dark.svg" /><img src="./assets/tool-gsap-light.svg" alt="GSAP" width="62" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-react-router-dark.svg" /><img src="./assets/tool-react-router-light.svg" alt="React Router" width="110" /></picture> 
+</p>
+
+### Backend & automation
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-django-dark.svg" /><img src="./assets/tool-django-light.svg" alt="Django" width="70" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-django-rest-dark.svg" /><img src="./assets/tool-django-rest-light.svg" alt="Django REST" width="104" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-fastapi-dark.svg" /><img src="./assets/tool-fastapi-light.svg" alt="FastAPI" width="77" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-express-dark.svg" /><img src="./assets/tool-express-light.svg" alt="Express" width="77" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-celery-dark.svg" /><img src="./assets/tool-celery-light.svg" alt="Celery" width="70" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-selenium-dark.svg" /><img src="./assets/tool-selenium-light.svg" alt="Selenium" width="84" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-rest-apis-dark.svg" /><img src="./assets/tool-rest-apis-light.svg" alt="REST APIs" width="90" /></picture> 
+</p>
+
+### Databases & services
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-postgresql-dark.svg" /><img src="./assets/tool-postgresql-light.svg" alt="PostgreSQL" width="97" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-mysql-dark.svg" /><img src="./assets/tool-mysql-light.svg" alt="MySQL" width="64" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-mongodb-dark.svg" /><img src="./assets/tool-mongodb-light.svg" alt="MongoDB" width="77" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-redis-dark.svg" /><img src="./assets/tool-redis-light.svg" alt="Redis" width="64" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-firebase-dark.svg" /><img src="./assets/tool-firebase-light.svg" alt="Firebase" width="84" /></picture> 
+</p>
+
+### Cloud & delivery
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-aws-dark.svg" /><img src="./assets/tool-aws-light.svg" alt="AWS" width="62" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-azure-dark.svg" /><img src="./assets/tool-azure-light.svg" alt="Azure" width="64" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-google-cloud-dark.svg" /><img src="./assets/tool-google-cloud-light.svg" alt="Google Cloud" width="110" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-docker-dark.svg" /><img src="./assets/tool-docker-light.svg" alt="Docker" width="70" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-github-actions-dark.svg" /><img src="./assets/tool-github-actions-light.svg" alt="GitHub Actions" width="124" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-git-dark.svg" /><img src="./assets/tool-git-light.svg" alt="Git" width="62" /></picture> 
+</p>
+
+### AI & machine learning
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-pytorch-dark.svg" /><img src="./assets/tool-pytorch-light.svg" alt="PyTorch" width="77" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-tensorflow-dark.svg" /><img src="./assets/tool-tensorflow-light.svg" alt="TensorFlow" width="97" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-reinforcement-learning-dark.svg" /><img src="./assets/tool-reinforcement-learning-light.svg" alt="Reinforcement learning" width="177" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-llm-evaluation-dark.svg" /><img src="./assets/tool-llm-evaluation-light.svg" alt="LLM evaluation" width="124" /></picture> 
+</p>
+
+### Testing & development
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-pytest-dark.svg" /><img src="./assets/tool-pytest-light.svg" alt="pytest" width="70" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-vite-dark.svg" /><img src="./assets/tool-vite-light.svg" alt="Vite" width="62" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-eslint-dark.svg" /><img src="./assets/tool-eslint-light.svg" alt="ESLint" width="70" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-prettier-dark.svg" /><img src="./assets/tool-prettier-light.svg" alt="Prettier" width="84" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-npm-dark.svg" /><img src="./assets/tool-npm-light.svg" alt="npm" width="62" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-yarn-dark.svg" /><img src="./assets/tool-yarn-light.svg" alt="Yarn" width="62" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-github-dark.svg" /><img src="./assets/tool-github-light.svg" alt="GitHub" width="70" /></picture> 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tool-geojson-dark.svg" /><img src="./assets/tool-geojson-light.svg" alt="GeoJSON" width="77" /></picture> 
+</p>
 
 [More projects & engineering notes](./docs/BACKGROUND.md#other-public-repositories) · [Portfolio](https://www.sibtainasad.com/) · [LinkedIn](https://www.linkedin.com/in/sibtain-asad/)
